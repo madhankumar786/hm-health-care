@@ -45,13 +45,12 @@ const Header: React.FC = () => {
           sx={{
             flexGrow: 1,
             display: isMobile ? 'block' : 'none',
-            backgroundColor: '#289fff',
             color: '#fff',
             textAlign: 'center',
             padding: '8px',
           }}
         >
-          <Typography variant="h6">My Application</Typography>
+          <Typography variant="h6">Health Care</Typography>
         </Box>
         <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
           <List>

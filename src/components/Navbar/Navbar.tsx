@@ -4,8 +4,8 @@ import { Tabs, Tab, Box } from '@mui/material';
 import { Home as HomeIcon, Search as SearchIcon, QuestionAnswer as QuestionAnswerIcon, LibraryBooks as LibraryBooksIcon, HealthAndSafety as HealthAndSafetyIcon } from '@mui/icons-material';
 
 const tabs = [
-  { label: 'Knowledge', icon: <HomeIcon /> },
   { label: 'Diagnostics', icon: <SearchIcon /> },
+  { label: 'Knowledge', icon: <HomeIcon /> },
   { label: 'Ask an Expert', icon: <QuestionAnswerIcon /> },
   { label: 'Magazine', icon: <LibraryBooksIcon /> },
   { label: 'Health Summit', icon: <HealthAndSafetyIcon /> },
@@ -39,6 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ selectedTab, onTabChange }) => {
             icon={tab.icon}
             label={tab.label}
             iconPosition="start"
+            sx={{textTransform:'capitalize'}}
             
           />
         ))}
