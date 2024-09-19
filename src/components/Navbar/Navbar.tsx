@@ -1,7 +1,9 @@
-// src/components/Navbar.tsx
+//lib
 import React from 'react';
 import { Tabs, Tab, Box } from '@mui/material';
 import { Home as HomeIcon, Search as SearchIcon, QuestionAnswer as QuestionAnswerIcon, LibraryBooks as LibraryBooksIcon, HealthAndSafety as HealthAndSafetyIcon } from '@mui/icons-material';
+//app
+import './Navbar.css';
 
 const tabs = [
   { label: 'Diagnostics', icon: <SearchIcon /> },
@@ -32,6 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ selectedTab, onTabChange }) => {
           borderBottom: 1,
           borderColor: 'divider'
         }}
+        className='tabsStyle'
       >
         {tabs.map((tab, index) => (
           <Tab

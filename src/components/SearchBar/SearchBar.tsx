@@ -1,6 +1,7 @@
 import React from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
+import './SearchBar.css';
 
 const SearchBar: React.FC = () => {
   return (
@@ -8,10 +9,11 @@ const SearchBar: React.FC = () => {
       variant="outlined"
       placeholder="Search by tests or checkups..."
       fullWidth
+      className="searchBarStyle"
       sx={{
         backgroundColor:'#ffffff',
         border:'2px solid #289fff',
-        borderRadius:'8px',
+        borderRadius:'4px',
         width: { xs: '100%', sm: '100%', md: '80%', lg: '90%' },
         '& .MuiOutlinedInput-root': {
           '& fieldset': {

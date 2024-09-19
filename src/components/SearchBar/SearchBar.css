@@ -1,0 +1,7 @@
+.searchBarStyle input{
+    padding:8px;
+    border-radius: 0px;
+}
+.searchBarStyle .MuiOutlinedInput-root{
+    border-radius: 0px;
+}
