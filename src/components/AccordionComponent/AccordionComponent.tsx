@@ -8,6 +8,7 @@ import {
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
+import { FAQList } from 'types';
 
 interface AccordionItem {
   title: string;
@@ -15,7 +16,7 @@ interface AccordionItem {
 }
 
 interface AccordionComponentProps {
-  data: AccordionItem[];
+  data: FAQList;
 }
 
 const StyledAccordion = styled(Accordion)(({ theme }) => ({
@@ -38,7 +39,7 @@ const AccordionComponent: React.FC<AccordionComponentProps> = ({ data }) => {
             <Typography>{item.title}</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>{item.content}</Typography>
+            <Typography>{item.description}</Typography>
           </AccordionDetails>
         </StyledAccordion>
       ))}

@@ -1,12 +1,16 @@
 import React from 'react';
 import { Box, Typography, Paper } from '@mui/material';
 
+interface MyObject  {
+  name: string;
+};
+
 interface TileCardComponentProps {
-  title: string; // The title of the card
+  name: string; // The title of the card
   Icon: React.ReactNode; // The SVG icon to be displayed
 }
 
-const TileCardComponent: React.FC<TileCardComponentProps> = ({ title, Icon }) => {
+const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon }) => {
   return (
     <Paper
     elevation={3}
@@ -30,7 +34,7 @@ const TileCardComponent: React.FC<TileCardComponentProps> = ({ title, Icon }) =>
       cursor:'pointer'
     }}
   >
-    <Box sx={{ fontSize: '28px', color: '#289fff' }}>{Icon}</Box> {/* Adjust icon size */}
+    <Box sx={{ fontSize: '28px', color: '#289fff',mt:2 }}>{Icon}</Box> {/* Adjust icon size */}
     <Typography
       variant="body2"
       sx={{
@@ -40,7 +44,7 @@ const TileCardComponent: React.FC<TileCardComponentProps> = ({ title, Icon }) =>
         fontWeight: 400,
       }}
     >
-      {title}
+      {name}
     </Typography>
   </Paper>
   );

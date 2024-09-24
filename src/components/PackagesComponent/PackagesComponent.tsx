@@ -3,10 +3,15 @@ import { Box, Grid, Button } from '@mui/material';
 import {TileCardComponent} from 'components'; // Ensure TileCardComponent is imported correctly
 import FavoriteIcon from '@mui/icons-material/Favorite'; // Example icon for the card
 import DownArrow from '@mui/icons-material/KeyboardArrowDown'; // Example icon for the "Show More" button
+import { Item } from 'types';
 
 // Define the type for the props
+// interface Item {
+//   id: string;
+//   name: string;
+// }
 interface PackagesComponentProps {
-  data: string[]; // The data array will be an array of strings (titles)
+  data: Item[]; // The data array will be an array of strings (titles)
 }
 
 const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
@@ -15,6 +20,8 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
   const handleShowMore = () => {
     setShowMore(!showMore);
   };
+
+  console.log(data,'data from diagnostic component786');
 
   return (
     <Box sx={{ padding: 2 }}>
@@ -25,7 +32,7 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
       >
         {data.slice(0, showMore ? data.length : 10).map((item, index) => (
           <Box key={index}>
-            <TileCardComponent title={item} Icon={<FavoriteIcon />} />
+            <TileCardComponent name={item.name} Icon={<FavoriteIcon />} />
           </Box>
         ))}
       </Grid>
