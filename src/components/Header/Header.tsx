@@ -1,4 +1,3 @@
-// src/components/Header.tsx
 import React, { useState } from 'react';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItemButton, ListItemIcon, ListItemText, useMediaQuery, useTheme, Box, Typography } from '@mui/material';
 import { Menu as MenuIcon, Home as HomeIcon, Search as SearchIcon, QuestionAnswer as QuestionAnswerIcon, LibraryBooks as LibraryBooksIcon, HealthAndSafety as HealthAndSafetyIcon } from '@mui/icons-material';

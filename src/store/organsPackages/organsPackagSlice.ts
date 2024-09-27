@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import apiClient from '../../api/apiClient'; // Adjust the import path as needed
+import apiClient from '../../utils/api/apiClient'; 
 import { ItemList } from 'types';
 
 interface OrgansPackageState {
@@ -15,7 +15,7 @@ const initialState: OrgansPackageState = {
 };
 
 export const fetchOrgansPackages = createAsyncThunk('organsPackages/fetchOrgansPackages', async () => {
-    const response = await apiClient.get('/organsss'); // Adjust the endpoint as needed
+    const response = await apiClient.get('/organs'); 
     return response.data;
 });
 

@@ -1,13 +1,12 @@
-// src/features/packages/packagesSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import apiClient from '../../api/apiClient';
+import apiClient from '../../utils/api/apiClient';
 import { ItemList } from 'types';
 
 // Define an async thunk to fetch packages data
 export const fetchPackages = createAsyncThunk<ItemList>(
   'packages/fetchPackages',
   async () => {
-    const response = await apiClient.get('/packages'); // Axios instance used here
+    const response = await apiClient.get('/packages'); 
     return response.data;
   }
 );

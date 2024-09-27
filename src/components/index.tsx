@@ -10,3 +10,4 @@ export { default as TileCardComponent } from './TileCardComponent/TileCardCompon
 export { default as PackagesComponent } from './PackagesComponent/PackagesComponent';
 export { default as AccordionComponent } from './AccordionComponent/AccordionComponent';
 export { default as SnackbarNotification } from './SnackbarNotification/SnackbarNotification';
+export { default as TestCard } from './TestCard/TestCard';

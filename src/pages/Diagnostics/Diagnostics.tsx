@@ -91,10 +91,8 @@ const Diagnostics: React.FC = () => {
         severity: 'error',
       })
     );
-    // return <div>Error loading Organs: {organsError}</div>;
   }
 
-  console.log(organsData, "organsData from redux toolkit786");
   return (
     <Box
       sx={{

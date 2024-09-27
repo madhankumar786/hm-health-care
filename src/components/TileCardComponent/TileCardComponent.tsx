@@ -1,12 +1,8 @@
 import React from 'react';
 import { Box, Typography, Paper } from '@mui/material';
 
-interface MyObject  {
-  name: string;
-};
-
 interface TileCardComponentProps {
-  name: string; // The title of the card
+  name: string; 
   Icon: React.ReactNode; // The SVG icon to be displayed
 }
 
@@ -19,8 +15,8 @@ const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon }) => 
       flexDirection: 'column',
       alignItems: 'celnter',
       justifyContent: 'left',
-      width: { xs: '65px', sm: '85px', md: '100px', lg: '90px' }, // Adjust width for different breakpoints
-      height: { xs: '65px', sm: '85px', md: '100px', lg: '90px' }, // Adjust height for different breakpoints
+      width: { xs: '65px', sm: '85px', md: '100px', lg: '90px' }, 
+      height: { xs: '65px', sm: '85px', md: '100px', lg: '90px' }, 
       textAlign: 'center',
       backgroundColor: '#fff',
       color: '#289fff',
@@ -34,13 +30,13 @@ const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon }) => 
       cursor:'pointer'
     }}
   >
-    <Box sx={{ fontSize: '28px', color: '#289fff',mt:2 }}>{Icon}</Box> {/* Adjust icon size */}
+    <Box sx={{ fontSize: '28px', color: '#289fff',mt:2 }}>{Icon}</Box> 
     <Typography
       variant="body2"
       sx={{
         marginTop: 1,
         textTransform: 'capitalize',
-        fontSize: { xs: '10px', sm: '12px', md: '14px', lg: '12px' }, // Adjust font size
+        fontSize: { xs: '10px', sm: '12px', md: '14px', lg: '12px' }, 
         fontWeight: 400,
       }}
     >

@@ -1,7 +1,7 @@
 // src/store/faq/faqSlice.ts
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { FAQ, FAQList } from 'types'; // Adjust the import path
-import apiClient from '../../api/apiClient'; // Your axios instance
+import { FAQList } from 'types'; 
+import apiClient from '../../utils/api/apiClient'; 
 
 interface FAQState {
     data: FAQList;
@@ -19,8 +19,8 @@ const initialState: FAQState = {
 export const fetchFAQ = createAsyncThunk<FAQList>(
     'faq/fetchFAQ',
     async () => {
-        const response = await apiClient.get('/faq'); // Adjust the endpoint if needed
-        return response.data; // Ensure this matches FAQList
+        const response = await apiClient.get('/faq'); 
+        return response.data; 
     }
 );
 
@@ -34,7 +34,7 @@ const faqSlice = createSlice({
         });
         builder.addCase(fetchFAQ.fulfilled, (state, action) => {
             state.loading = false;
-            state.data = action.payload; // Ensure this is FAQList
+            state.data = action.payload;
         });
         builder.addCase(fetchFAQ.rejected, (state, action) => {
             state.loading = false;

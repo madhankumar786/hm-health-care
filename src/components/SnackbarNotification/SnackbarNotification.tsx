@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Snackbar, Alert } from '@mui/material';
-import { RootState } from 'store/store'; // Adjust the import path according to your store setup
-import { hideSnackbar } from 'store/snackbar/snackbarSlice'; // Import hideSnackbar action
+import { RootState } from 'store/store'; 
+import { hideSnackbar } from 'store/snackbar/snackbarSlice'; 
 
 const SnackbarNotification: React.FC = () => {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ const SnackbarNotification: React.FC = () => {
     if (reason === 'clickaway') return;
     dispatch(hideSnackbar());
   };
-  debugger
+ 
   return (
     <Snackbar
       open={open}

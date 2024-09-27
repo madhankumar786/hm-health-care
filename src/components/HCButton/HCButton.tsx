@@ -13,8 +13,8 @@ const HCButton: React.FC<ButtonProps> = ({ label, onClick, startIcon, endIcon, .
     <MUIButton
       variant="outlined"
       onClick={onClick}
-      startIcon={startIcon} // Icon on the left
-      endIcon={endIcon} // Icon on the right
+      startIcon={startIcon} 
+      endIcon={endIcon}
       sx={{
         borderColor: '#289fff', 
         backgroundColor: '#d9f3fa', 
@@ -33,7 +33,7 @@ const HCButton: React.FC<ButtonProps> = ({ label, onClick, startIcon, endIcon, .
         width:'100%',
         textTransform:'capitalize'
       }}
-      {...props} // Pass other props to MUIButton
+      {...props} // can pass other props to MUIButton
     >
       {label}
     </MUIButton>

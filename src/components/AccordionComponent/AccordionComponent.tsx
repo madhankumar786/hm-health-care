@@ -10,11 +10,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { styled } from '@mui/material/styles';
 import { FAQList } from 'types';
 
-interface AccordionItem {
-  title: string;
-  content: string;
-}
-
 interface AccordionComponentProps {
   data: FAQList;
 }
