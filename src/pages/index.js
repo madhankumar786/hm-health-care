@@ -5,3 +5,4 @@ export { default as Knowledge } from './Knowledge/Knowledge';
 export { default as Magazine } from './Magazine/Magazine';
 export { default as TestPage } from './TestsPage/TestsPage';
 export { default as PackageDetails } from './PackageDetails/PackageDetails';
+export { default as TestsBanner } from './TestsBanner/TestsBanner';

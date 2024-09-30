@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Grid } from '@mui/material';
-import { TestCard } from 'components';
+import { Container, Grid, Box, useMediaQuery, useTheme} from '@mui/material';
+import { TestCard, TitleComponent } from 'components';
 import { useNavigate } from 'react-router-dom';
+import {TestsBanner} from 'pages';
 
 const testsData = [
   {
@@ -10,7 +11,7 @@ const testsData = [
     price: 1200,
     link:'albumin-serum',
     type:'test',
-    timeTaken:'5 hrs'
+    timeTaken:'Reported with in 8 Hrs after sample has been collected.'
 
   },
   {
@@ -19,7 +20,7 @@ const testsData = [
     price: 1500,
     link:'lipid-profile',
     type:'test',
-    timeTaken:'3 hrs'
+    timeTaken:'Reported with in 3 Hrs after sample has been collected.'
   },
   {
     title: 'Thyroid Profile',
@@ -27,12 +28,70 @@ const testsData = [
     price: 800,
     link:'thyroid-profile',
     type:'Test',
-    timeTaken:'9 hrs'
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
   },
-  // Add more test data as needed
+  
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
+  {
+    title: 'Thyroid Profile',
+    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
+    price: 800,
+    link:'thyroid-profile',
+    type:'Test',
+    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
+  },
 ];
 
 const TestsPage: React.FC = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const navigate = useNavigate();
   const handleBuyNow = (title: string) => {
     alert(`Buy Now clicked for ${title}`);
@@ -48,8 +107,17 @@ const TestsPage: React.FC = () => {
   };
 
   return (
+    <Box
+    sx={{
+      padding: isMobile ? "16px" : "40px",
+      backgroundImage:
+        "linear-gradient(to bottom right, #faeca5, #e4e7eb, #99d1ff)",
+    }}
+  >
+    <TestsBanner />
+    <TitleComponent title="Tests" />
     <Container>
-      <Grid container spacing={3}>
+      <Grid container spacing={2}>
         {testsData.map((test) => (
           <Grid item xs={12} sm={6} md={4} key={test.title}>
             <TestCard
@@ -66,6 +134,7 @@ const TestsPage: React.FC = () => {
         ))}
       </Grid>
     </Container>
+    </Box>
   );
 };
 
