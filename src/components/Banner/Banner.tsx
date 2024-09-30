@@ -108,7 +108,7 @@ const Banner: React.FC = () => {
             </Box>
             <Box sx={{ p: 3, flex: 1 }}>
               <HCButton
-                label="Test"
+                label="Smart Health Check-up"
                 onClick={handleClick}
                 startIcon={<CheckupIcon />}
                 endIcon={<ArrowForwardIcon />}

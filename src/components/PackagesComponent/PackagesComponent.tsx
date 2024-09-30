@@ -28,21 +28,27 @@ import {
 } from "@mui/icons-material";
 import DownArrow from "@mui/icons-material/KeyboardArrowDown";
 import { Item } from "types";
+import { useNavigate } from "react-router-dom";
+
 
 interface PackagesComponentProps {
   data: Item[];
 }
 
 const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
+  const navigate = useNavigate();
   const [showMore, setShowMore] = useState(false);
 
   const handleShowMore = () => {
     setShowMore(!showMore);
   };
 
+  const handleOnClickPackage = () => {
+      navigate('/diagnostics/tests')
+  }
+  
   const getIconByName = (name: string) => {
     switch (name.toLowerCase()) {
-      
       case "pregnancy":
         return <Pregnancy />;
       case "aids":
@@ -89,6 +95,7 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
         return <FavoriteIcon />; 
     }
   };
+
   return (
     <Box sx={{ padding: 2 }}>
       <Grid
@@ -101,6 +108,7 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
             <TileCardComponent
               name={item.name}
               Icon={getIconByName(item.name)}
+              handleOnClickPackage={handleOnClickPackage}
             />
           </Box>
         ))}

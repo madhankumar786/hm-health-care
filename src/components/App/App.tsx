@@ -8,6 +8,8 @@ import {
   HealthSummita,
   Knowledge,
   Magazine,
+  TestPage,
+  PackageDetails
 } from "pages";
 
 //packages
@@ -24,6 +26,8 @@ function App() {
           <Route path="knowledge" element={<Knowledge />} />
           <Route path="magazine" element={<Magazine />} />
           <Route path="healthSummita" element={<HealthSummita />} />
+          <Route path="/diagnostics/tests" element={<TestPage />} />
+          <Route path="/diagnostics/tests/:packageName" element={<PackageDetails />} />
         </Route>
       </Routes>
       <SnackbarNotification />

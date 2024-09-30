@@ -4,9 +4,10 @@ import { Box, Typography, Paper } from '@mui/material';
 interface TileCardComponentProps {
   name: string; 
   Icon: React.ReactNode; // The SVG icon to be displayed
+  handleOnClickPackage: () => void;
 }
 
-const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon }) => {
+const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon, handleOnClickPackage }) => {
   return (
     <Paper
     elevation={3}
@@ -29,6 +30,7 @@ const TileCardComponent: React.FC<TileCardComponentProps> = ({ name, Icon }) => 
       },
       cursor:'pointer'
     }}
+    onClick={handleOnClickPackage}
   >
     <Box sx={{ fontSize: '28px', color: '#289fff',mt:2 }}>{Icon}</Box> 
     <Typography

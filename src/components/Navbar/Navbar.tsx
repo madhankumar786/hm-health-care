@@ -8,10 +8,10 @@ import { useNavigate } from 'react-router-dom';
 
 const tabs = [
   { label: 'Diagnostics',link:'diagnostics', icon: <SearchIcon /> },
-  { label: 'Knowledge', link:'knowledge', icon: <HomeIcon /> },
-  { label: 'Ask an Expert',link:'askAnExpert', icon: <QuestionAnswerIcon /> },
-  { label: 'Magazine', link:'magazine', icon: <LibraryBooksIcon /> },
-  { label: 'Health Summita', link:'healthSummita', icon: <HealthAndSafetyIcon /> },
+  // { label: 'Knowledge', link:'knowledge', icon: <HomeIcon /> },
+  // { label: 'Ask an Expert',link:'askAnExpert', icon: <QuestionAnswerIcon /> },
+  // { label: 'Magazine', link:'magazine', icon: <LibraryBooksIcon /> },
+  // { label: 'Health Summita', link:'healthSummita', icon: <HealthAndSafetyIcon /> },
 ];
 
 interface NavbarProps {
