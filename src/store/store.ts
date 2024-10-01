@@ -4,11 +4,13 @@ import packagesReducer from './packages/packagesSlice';
 import faqReducer from './faq/faqSlice';
 import organsPackageReducer from './organsPackages/organsPackagSlice';
 import snackbarReducer from './snackbar/snackbarSlice';
+import testsReducer from './tests/testsSlice';
 
 export * from './packages/packagesSlice';
 export * from './faq/faqSlice';
 export * from './organsPackages/organsPackagSlice';
 export * from './snackbar/snackbarSlice';
+export * from './tests/testsSlice';
 
 
 const store = configureStore({
@@ -17,6 +19,7 @@ const store = configureStore({
     faq: faqReducer,
     organsPackages: organsPackageReducer,
     snackbar:snackbarReducer,
+    tests:testsReducer
   },
 });
 

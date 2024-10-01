@@ -50,5 +50,279 @@
     {"id":1,"title":"What services does Happiest Diagnostics offers?","description":"Medical tests and scans"},
     {"id":1,"title":"Do you have a physical location for sample collection?","description":"Yes, we do have varios physical locations around the city to collect the sample"},
     {"id":1,"title":"Which area do you serve for Home sample collection","description":"All the areas both urban and rural areas"}
+  ],
+  "testsData":[
+    {
+      "id":1,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease",
+      "price": 1200,
+      "link":"albumin-serum",
+      "type":"test",
+      "timeTaken":"Reported with in 8 Hrs after sample has been collected."
+  
+    },
+    {
+      "id":2,
+      "title": "Lipid Profile 1",
+      "description": "4 Tests Included: Cholesterol, HDL, LDL",
+      "price": 1500,
+      "link":"lipid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 3 Hrs after sample has been collected."
+    },
+    {
+      "id":3,
+      "title": "Thyroid Profile 2",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    
+    {
+      "id":4,
+      "title": "Thyroid Profile 3",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":5,
+      "title": "Thyroid Profile 4",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":6,
+      "title": "Thyroid Profile 5",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":7,
+      "title": "Thyroid Profile 6",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":8,
+      "title": "Thyroid Profile 7",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":9,
+      "title": "Thyroid Profile 8",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":10,
+      "title": "Thyroid Profile 9",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":11,
+      "title": "Thyroid Profile 10",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":12,
+      "title": "Thyroid Profile 11",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":13,
+      "title": "Thyroid Profile 12",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":14,
+      "title": "Thyroid Profile 13",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":15,
+      "title": "Thyroid Profile 14",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":16,
+      "title": "Thyroid Profile 15",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":17,
+      "title": "Thyroid Profile 16",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":18,
+      "title": "Thyroid Profile 17",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":19,
+      "title": "Thyroid Profile 18",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":20,
+      "title": "Thyroid Profile 19",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":21,
+      "title": "Thyroid Profile 20",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":22,
+      "title": "Thyroid Profile 21",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":23,
+      "title": "Thyroid Profile 22",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":24,
+      "title": "Thyroid Profile 23",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":25,
+      "title": "Thyroid Profile 24",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":26,
+      "title": "Thyroid Profile 25",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":27,
+      "title": "Thyroid Profile 27",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":28,
+      "title": "Thyroid Profile 28",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":29,
+      "title": "Thyroid Profile 29",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    },
+    {
+      "id":30,
+      "title": "Thyroid Profile 30",
+      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
+      "price": 800,
+      "link":"thyroid-profile",
+      "type":"test",
+      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+    }
   ]
 }

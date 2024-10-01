@@ -12,3 +12,14 @@ export interface FAQ {
 }
 
 export type FAQList = FAQ[];
+
+export interface ITest {
+  title: string;
+  description: string;
+  price: number;
+  link: string;
+  type: string;
+  timeTaken: string;
+}
+
+export type TestList = ITest[];

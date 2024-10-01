@@ -1,98 +1,60 @@
-import React from 'react';
-import { Container, Grid, Box, useMediaQuery, useTheme} from '@mui/material';
+import React, { useEffect, useRef, useState } from 'react';
+import { Container, Grid, Box, useMediaQuery, useTheme, CircularProgress} from '@mui/material';
 import { TestCard, TitleComponent } from 'components';
 import { useNavigate } from 'react-router-dom';
-import {TestsBanner} from 'pages';
-
-const testsData = [
-  {
-    title: 'Albumin Serum',
-    description: '3 Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease',
-    price: 1200,
-    link:'albumin-serum',
-    type:'test',
-    timeTaken:'Reported with in 8 Hrs after sample has been collected.'
-
-  },
-  {
-    title: 'Lipid Profile',
-    description: '4 Tests Included: Cholesterol, HDL, LDL',
-    price: 1500,
-    link:'lipid-profile',
-    type:'test',
-    timeTaken:'Reported with in 3 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-  {
-    title: 'Thyroid Profile',
-    description: '3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH',
-    price: 800,
-    link:'thyroid-profile',
-    type:'Test',
-    timeTaken:'Reported with in 2 Hrs after sample has been collected.'
-  },
-];
+import { TestsBanner } from 'pages';
+import { useDispatch, useSelector } from 'react-redux';
+import { AppDispatch, fetchTests } from 'store/store';
+import { ITest } from 'types';
 
 const TestsPage: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const navigate = useNavigate();
+  const dispatch = useDispatch<AppDispatch>();
+  const { tests, loading, error } = useSelector((state: any) => state.tests);
+  const loaderRef = useRef<HTMLDivElement | null>(null);  // Reference to the loader element
+  const [page, setPage] = useState(1);  // Track the current page for pagination
+  const [hasMore, setHasMore] = useState(true); 
+
+  // useEffect(() => {
+  //   dispatch(fetchTests());
+  // }, [dispatch]);
+
+  // new changes related to loading test cards starts
+  useEffect(() => {
+    if (hasMore) {
+      dispatch(fetchTests(page));
+    }
+  }, [dispatch, page, hasMore]);
+
+  // Infinite scrolling logic
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !loading && hasMore) {
+        setPage((prevPage) => prevPage + 1);  // Increment page to fetch the next set of tests
+      }
+    });
+
+    if (loaderRef.current) {
+      observer.observe(loaderRef.current);
+    }
+
+    return () => {
+      if (loaderRef.current) {
+        observer.unobserve(loaderRef.current);
+      }
+    };
+  }, [loading, hasMore]);
+
+  // Handle empty state if no more data is available
+  useEffect(() => {
+    if (tests.length < page * 9) {
+      setHasMore(false);  // Stop fetching if there are no more results
+    }
+  }, [tests, page]);
+  // new changes related to loading test cards ends
+
   const handleBuyNow = (title: string) => {
     alert(`Buy Now clicked for ${title}`);
   };
@@ -106,6 +68,7 @@ const TestsPage: React.FC = () => {
     navigate(`/diagnostics/tests/${link}`)
   };
 
+  console.log(tests,'tests786')
   return (
     <Box
     sx={{
@@ -118,7 +81,7 @@ const TestsPage: React.FC = () => {
     <TitleComponent title="Tests" />
     <Container>
       <Grid container spacing={2}>
-        {testsData.map((test) => (
+        {tests?.map((test:ITest) => (
           <Grid item xs={12} sm={6} md={4} key={test.title}>
             <TestCard
               type={test.type}
@@ -131,8 +94,16 @@ const TestsPage: React.FC = () => {
               onViewDetails={() => handleViewDetails(test.link)}
             />
           </Grid>
+          
         ))}
       </Grid>
+      {/* Loader Section */}
+      {/* <Box ref={loaderRef} sx={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+        {loading && hasMore && <CircularProgress />}
+      </Box> */}
+      {loading && <CircularProgress />}  {/* Show loading spinner when loading */}
+
+      {!hasMore && <p>No more tests available</p>}  {/* Show message if no more data */}
     </Container>
     </Box>
   );
