@@ -97,12 +97,7 @@ const TestsPage: React.FC = () => {
           
         ))}
       </Grid>
-      {/* Loader Section */}
-      {/* <Box ref={loaderRef} sx={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-        {loading && hasMore && <CircularProgress />}
-      </Box> */}
       {loading && <CircularProgress />}  {/* Show loading spinner when loading */}
-
       {!hasMore && <p>No more tests available</p>}  {/* Show message if no more data */}
     </Container>
     </Box>

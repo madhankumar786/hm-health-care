@@ -32,7 +32,7 @@ const initialState: TestsState = {
 export const fetchTests = createAsyncThunk<TestList,number>('tests/fetchTests', async (page: number, { getState }) => {
   const { tests }: any = getState(); // Access the current state
   const limit = 9; // Adjust the limit as needed
-  const response = await apiClient.get(`/testsData?_page=${page}&_limit=9`);
+  const response = await apiClient.get(`/testsData?_page=${page}&_limit=${limit}`);
   return response.data;
 });
 

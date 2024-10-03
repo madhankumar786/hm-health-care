@@ -1,5 +1,4 @@
-{
-  "packages": [
+{"packages": [
     { "id": 1, "name": "Pregnancy" },
     { "id": 2, "name": "AIDS" },
     { "id": 3, "name": "Covid-19" },
@@ -51,278 +50,906 @@
     {"id":1,"title":"Do you have a physical location for sample collection?","description":"Yes, we do have varios physical locations around the city to collect the sample"},
     {"id":1,"title":"Which area do you serve for Home sample collection","description":"All the areas both urban and rural areas"}
   ],
-  "testsData":[
+  "testsData": [
     {
-      "id":1,
+      "id": 1,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 683,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 2,
+      "title": "Malaria Test",
+      "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
+      "price": 1350,
+      "link": "malaria-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 3,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 2020,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 4,
+      "title": "Cholesterol Test",
+      "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
+      "price": 655,
+      "link": "cholesterol-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 5,
+      "title": "Iron Test",
+      "description": "3 Tests Included: Tests iron levels in the body., Tests iron levels in the body., Tests iron levels in the body.",
+      "price": 1038,
+      "link": "iron-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 6,
+      "title": "Kidney Function Test",
+      "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
+      "price": 3135,
+      "link": "kidney-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 7,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 2758,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 8,
+      "title": "Iron Test",
+      "description": "3 Tests Included: Tests iron levels in the body., Tests iron levels in the body., Tests iron levels in the body.",
+      "price": 3199,
+      "link": "iron-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 9,
+      "title": "Complete Blood Count",
+      "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
+      "price": 3437,
+      "link": "complete-blood-count",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 10,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 3020,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 11,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 3439,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 12,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 1502,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 13,
+      "title": "Kidney Function Test",
+      "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
+      "price": 2101,
+      "link": "kidney-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 14,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 1242,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 15,
       "title": "Albumin Serum",
-      "description": "3 Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease, Tests Included: To Evaluate liver disease",
-      "price": 1200,
-      "link":"albumin-serum",
-      "type":"test",
-      "timeTaken":"Reported with in 8 Hrs after sample has been collected."
-  
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 2686,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":2,
-      "title": "Lipid Profile 1",
-      "description": "4 Tests Included: Cholesterol, HDL, LDL",
-      "price": 1500,
-      "link":"lipid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 3 Hrs after sample has been collected."
+      "id": 16,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 2427,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":3,
-      "title": "Thyroid Profile 2",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
-    },
-    
-    {
-      "id":4,
-      "title": "Thyroid Profile 3",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 17,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 757,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":5,
-      "title": "Thyroid Profile 4",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 18,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 2045,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":6,
-      "title": "Thyroid Profile 5",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 19,
+      "title": "Lipid Profile",
+      "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
+      "price": 3386,
+      "link": "lipid-profile",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":7,
-      "title": "Thyroid Profile 6",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 20,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 2559,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":8,
-      "title": "Thyroid Profile 7",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 21,
+      "title": "Malaria Test",
+      "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
+      "price": 2235,
+      "link": "malaria-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":9,
-      "title": "Thyroid Profile 8",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 22,
+      "title": "Lipid Profile",
+      "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
+      "price": 2234,
+      "link": "lipid-profile",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":10,
-      "title": "Thyroid Profile 9",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 23,
+      "title": "Lipid Profile",
+      "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
+      "price": 581,
+      "link": "lipid-profile",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":11,
-      "title": "Thyroid Profile 10",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 24,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 2723,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":12,
-      "title": "Thyroid Profile 11",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 25,
+      "title": "Urine Analysis",
+      "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
+      "price": 2975,
+      "link": "urine-analysis",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":13,
-      "title": "Thyroid Profile 12",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 26,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 1486,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":14,
-      "title": "Thyroid Profile 13",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 27,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 2894,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":15,
-      "title": "Thyroid Profile 14",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 28,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 3012,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":16,
-      "title": "Thyroid Profile 15",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 29,
+      "title": "Complete Blood Count",
+      "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
+      "price": 2360,
+      "link": "complete-blood-count",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":17,
-      "title": "Thyroid Profile 16",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 30,
+      "title": "Calcium Test",
+      "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
+      "price": 3148,
+      "link": "calcium-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":18,
-      "title": "Thyroid Profile 17",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 31,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 1782,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":19,
-      "title": "Thyroid Profile 18",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 32,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 1587,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":20,
-      "title": "Thyroid Profile 19",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 33,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 1608,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":21,
-      "title": "Thyroid Profile 20",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 34,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 3497,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":22,
-      "title": "Thyroid Profile 21",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 35,
+      "title": "Urine Analysis",
+      "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
+      "price": 1525,
+      "link": "urine-analysis",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":23,
-      "title": "Thyroid Profile 22",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 36,
+      "title": "Kidney Function Test",
+      "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
+      "price": 2415,
+      "link": "kidney-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
     },
     {
-      "id":24,
-      "title": "Thyroid Profile 23",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 37,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 2502,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     },
     {
-      "id":25,
-      "title": "Thyroid Profile 24",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 38,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 3119,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":26,
-      "title": "Thyroid Profile 25",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 39,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 1719,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":27,
-      "title": "Thyroid Profile 27",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 40,
+      "title": "Calcium Test",
+      "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
+      "price": 3341,
+      "link": "calcium-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
     },
     {
-      "id":28,
-      "title": "Thyroid Profile 28",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 41,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 3499,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":29,
-      "title": "Thyroid Profile 29",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 42,
+      "title": "Dengue Test",
+      "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
+      "price": 1626,
+      "link": "dengue-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
     },
     {
-      "id":30,
-      "title": "Thyroid Profile 30",
-      "description": "3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH, 3 Tests Included: T3, T4, TSH,TSH, 3 Tests Included: T3, T4, TSH",
-      "price": 800,
-      "link":"thyroid-profile",
-      "type":"test",
-      "timeTaken":"Reported with in 2 Hrs after sample has been collected."
+      "id": 43,
+      "title": "Electrolyte Panel",
+      "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
+      "price": 2219,
+      "link": "electrolyte-panel",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 44,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 922,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 45,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 783,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 46,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 1791,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 47,
+      "title": "Electrolyte Panel",
+      "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
+      "price": 2721,
+      "link": "electrolyte-panel",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 48,
+      "title": "Lipid Profile",
+      "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
+      "price": 1420,
+      "link": "lipid-profile",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 49,
+      "title": "Urine Analysis",
+      "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
+      "price": 1764,
+      "link": "urine-analysis",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 50,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 1031,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 51,
+      "title": "Electrolyte Panel",
+      "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
+      "price": 913,
+      "link": "electrolyte-panel",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 52,
+      "title": "Kidney Function Test",
+      "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
+      "price": 941,
+      "link": "kidney-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 53,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 611,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 54,
+      "title": "Cholesterol Test",
+      "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
+      "price": 803,
+      "link": "cholesterol-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 55,
+      "title": "Calcium Test",
+      "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
+      "price": 2615,
+      "link": "calcium-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 56,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 2942,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 57,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 1155,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 58,
+      "title": "Calcium Test",
+      "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
+      "price": 662,
+      "link": "calcium-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 59,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 3340,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 60,
+      "title": "Malaria Test",
+      "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
+      "price": 1324,
+      "link": "malaria-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 61,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 689,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 62,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 1414,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 63,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 552,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 64,
+      "title": "Dengue Test",
+      "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
+      "price": 2349,
+      "link": "dengue-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 65,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 2777,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 66,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 2482,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 67,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 1846,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 68,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 3215,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 69,
+      "title": "Dengue Test",
+      "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
+      "price": 2588,
+      "link": "dengue-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 70,
+      "title": "Calcium Test",
+      "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
+      "price": 3045,
+      "link": "calcium-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 71,
+      "title": "Cholesterol Test",
+      "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
+      "price": 3289,
+      "link": "cholesterol-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 72,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 3052,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 73,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 2766,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 74,
+      "title": "Lipid Profile",
+      "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
+      "price": 778,
+      "link": "lipid-profile",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 75,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 1558,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 76,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 818,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 77,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 3492,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 78,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 2536,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 79,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 2438,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 80,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 1877,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 81,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 3198,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 82,
+      "title": "Hepatitis B Test",
+      "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
+      "price": 1061,
+      "link": "hepatitis-b-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 83,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 823,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 84,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 2728,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 85,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 2642,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 86,
+      "title": "Fever Panel",
+      "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
+      "price": 2743,
+      "link": "fever-panel",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 87,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 1422,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+    },
+    {
+      "id": 88,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 1310,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 89,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 2038,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 90,
+      "title": "Thyroid Function Test",
+      "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
+      "price": 1945,
+      "link": "thyroid-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 91,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 2625,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 92,
+      "title": "Blood Sugar Fasting",
+      "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
+      "price": 1579,
+      "link": "blood-sugar-fasting",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 93,
+      "title": "HIV Screening",
+      "description": "3 Tests Included: Screens for HIV infection., Screens for HIV infection., Screens for HIV infection.",
+      "price": 1516,
+      "link": "hiv-screening",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 94,
+      "title": "Albumin Serum",
+      "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
+      "price": 898,
+      "link": "albumin-serum",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 95,
+      "title": "Malaria Test",
+      "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
+      "price": 2522,
+      "link": "malaria-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 96,
+      "title": "HbA1c Test",
+      "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
+      "price": 2913,
+      "link": "hba1c-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+    },
+    {
+      "id": 97,
+      "title": "Complete Blood Count",
+      "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
+      "price": 1329,
+      "link": "complete-blood-count",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+    },
+    {
+      "id": 98,
+      "title": "Vitamin D Test",
+      "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
+      "price": 2041,
+      "link": "vitamin-d-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 99,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 2020,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+    },
+    {
+      "id": 100,
+      "title": "COVID-19 RT-PCR",
+      "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
+      "price": 2918,
+      "link": "covid-19-rt-pcr",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected."
     }
   ]
 }
