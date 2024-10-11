@@ -5,12 +5,14 @@ import faqReducer from './faq/faqSlice';
 import organsPackageReducer from './organsPackages/organsPackagSlice';
 import snackbarReducer from './snackbar/snackbarSlice';
 import testsReducer from './tests/testsSlice';
+import testsPackageDetailsReducer from './testsPackageDetails/testsPackageDetails';
 
 export * from './packages/packagesSlice';
 export * from './faq/faqSlice';
 export * from './organsPackages/organsPackagSlice';
 export * from './snackbar/snackbarSlice';
 export * from './tests/testsSlice';
+export * from './testsPackageDetails/testsPackageDetails';
 
 
 const store = configureStore({
@@ -19,7 +21,8 @@ const store = configureStore({
     faq: faqReducer,
     organsPackages: organsPackageReducer,
     snackbar:snackbarReducer,
-    tests:testsReducer
+    tests:testsReducer,
+    testsPackageDetails: testsPackageDetailsReducer
   },
 });
 

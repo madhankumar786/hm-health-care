@@ -46,7 +46,7 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
   const handleOnClickPackage = () => {
       navigate('/diagnostics/tests')
   }
-  
+
   const getIconByName = (name: string) => {
     switch (name.toLowerCase()) {
       case "pregnancy":

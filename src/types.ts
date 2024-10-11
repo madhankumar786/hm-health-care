@@ -20,6 +20,7 @@ export interface ITest {
   link: string;
   type: string;
   timeTaken: string;
+  id:number;
 }
 
 export type TestList = ITest[];

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Card,
   CardContent,
@@ -7,10 +7,12 @@ import {
   Divider,
   Grid,
   Box,
+  Modal,
 } from "@mui/material";
 import PageIcon from "@mui/icons-material/InsertDriveFile"; // Page icon for info section
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward"; // Arrow icon for View Details button
 import "./TestCard.css";
+import { useNavigate } from "react-router-dom";
 
 interface TestCardProps {
   type: string; // Dynamic type: test/package
@@ -18,9 +20,10 @@ interface TestCardProps {
   description: string; // Description
   price: number; // Price in Rupees
   timeTaken: string; // Time taken for the test/package
-  onBuyNow: () => void;
-  onAddToCart: () => void;
-  onViewDetails: () => void;
+  id:number;
+  // onBuyNow: () => void;
+  // onAddToCart: () => void;
+  // onViewDetails: () => void;
 }
 
 const TestCard: React.FC<TestCardProps> = ({
@@ -29,8 +32,35 @@ const TestCard: React.FC<TestCardProps> = ({
   description,
   price,
   timeTaken,
+  id,
 }) => {
+  const [isAddedToCart, setIsAddedToCart] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState('');
+
+  const navigate = useNavigate();
+  const handleAddToCart = () => {
+    setIsAddedToCart(true);
+    setModalMessage(`Product ${name} is successfully added to cart`);
+    setModalOpen(true);
+  };
+
+  const handleRemoveFromCart = () => {
+    setIsAddedToCart(false);
+    setModalMessage(`Product ${name} is removed from cart`);
+    setModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setModalOpen(false);
+  };
+ 
+  const handleOnClickViewDetails = (id:number) => {
+      navigate(`/diagnostics/view-details/${id}`)
+  }
+
   return (
+    <>
     <Card
       sx={{
         margin: "20px",
@@ -105,14 +135,27 @@ const TestCard: React.FC<TestCardProps> = ({
             </Button>
           </Grid>
           <Grid item xs={6}>
-            <Button
-              variant="contained"
-              color="primary"
-              size="small"
-              sx={{ width: "100%", textTransform: "capitalize" }}
-            >
-              Add to Cart
-            </Button>
+          {isAddedToCart ? (
+          <Button
+            variant="contained"
+            color="error"
+            onClick={handleRemoveFromCart}
+            size="small"
+            sx={{ width: "100%", textTransform: "capitalize" }}
+          >
+            Remove
+          </Button>
+        ) : (
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={handleAddToCart}
+            size="small"
+            sx={{ width: "100%", textTransform: "capitalize" }}
+          >
+            Add to Cart
+          </Button> )}
+           
           </Grid>
         </Grid>
 
@@ -137,6 +180,7 @@ const TestCard: React.FC<TestCardProps> = ({
                   endIcon={<ArrowForwardIcon />}
                   color="primary"
                   sx={{textTransform:'capitalize'}}
+                  onClick={() => handleOnClickViewDetails(id)}
                 >
                   View Details
                 </Button>
@@ -146,6 +190,34 @@ const TestCard: React.FC<TestCardProps> = ({
         </Grid>
       </CardContent>
     </Card>
+    <Modal
+        open={modalOpen}
+        onClose={handleModalClose}
+        aria-labelledby="modal-title"
+        aria-describedby="modal-description"
+      >
+        <Box
+          sx={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            width: 300,
+            bgcolor: 'background.paper',
+            borderRadius: 1,
+            boxShadow: 24,
+            p: 4,
+          }}
+        >
+          <Typography id="modal-title" variant="h6" component="h2">
+            {modalMessage}
+          </Typography>
+          <Button onClick={handleModalClose} sx={{ mt: 2 }}>
+            Close
+          </Button>
+        </Box>
+      </Modal>
+    </>
   );
 };
 

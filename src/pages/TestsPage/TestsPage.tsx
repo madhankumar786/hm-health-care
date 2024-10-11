@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Container, Grid, Box, useMediaQuery, useTheme, CircularProgress} from '@mui/material';
+import { Container, Grid, Box, useMediaQuery, useTheme, CircularProgress, Modal, Typography, Button} from '@mui/material';
 import { TestCard, TitleComponent } from 'components';
 import { useNavigate } from 'react-router-dom';
 import { TestsBanner } from 'pages';
@@ -32,7 +32,7 @@ const TestsPage: React.FC = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !loading && hasMore) {
-        setPage((prevPage) => prevPage + 1);  // Increment page to fetch the next set of tests
+        setPage((prevPage) => prevPage + 1);  // Incrementing page to fetch the next set of tests
       }
     });
 
@@ -55,20 +55,6 @@ const TestsPage: React.FC = () => {
   }, [tests, page]);
   // new changes related to loading test cards ends
 
-  const handleBuyNow = (title: string) => {
-    alert(`Buy Now clicked for ${title}`);
-  };
-
-  const handleAddToCart = (title: string) => {
-    alert(`Added ${title} to Cart`);
-  };
-
-  const handleViewDetails = (link: string) => {
-    // alert(`View Details clicked for ${title}`);
-    navigate(`/diagnostics/tests/${link}`)
-  };
-
-  console.log(tests,'tests786')
   return (
     <Box
     sx={{
@@ -89,16 +75,14 @@ const TestsPage: React.FC = () => {
               timeTaken={test.timeTaken}
               description={test.description}
               price={test.price}
-              onBuyNow={() => handleBuyNow(test.title)}
-              onAddToCart={() => handleAddToCart(test.title)}
-              onViewDetails={() => handleViewDetails(test.link)}
+              id={test.id}
             />
           </Grid>
           
         ))}
       </Grid>
-      {loading && <CircularProgress />}  {/* Show loading spinner when loading */}
-      {!hasMore && <p>No more tests available</p>}  {/* Show message if no more data */}
+      {loading && <CircularProgress />}  {/* Showing loading spinner when loading */}
+      {!hasMore && <p>No more tests available</p>}  {/* Showing message if no more data */}
     </Container>
     </Box>
   );
