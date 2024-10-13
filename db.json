@@ -1,54 +1,196 @@
-{"packages": [
-    { "id": 1, "name": "Pregnancy" },
-    { "id": 2, "name": "AIDS" },
-    { "id": 3, "name": "Covid-19" },
-    { "id": 4, "name": "Anemia" },
-    { "id": 5, "name": "Arthritis" },
-    { "id": 6, "name": "Cancer" },
-    { "id": 7, "name": "Hairfall" },
-    { "id": 8, "name": "Dental" },
-    { "id": 9, "name": "Leukemia" },
-    { "id": 10, "name": "Dengue" },
-    { "id": 11, "name": "Fever" },
-    { "id": 12, "name": "Migraine" },
-    { "id": 13, "name": "ENT" },
-    { "id": 14, "name": "Psoriasis" },
-    { "id": 15, "name": "Eczema" },
-    { "id": 16, "name": "Fracture" },
-    { "id": 17, "name": "Prostate" },
-    { "id": 18, "name": "Dialysis" },
-    { "id": 19, "name": "Cardiac" },
-    { "id": 20, "name": "Asthma" },
-    { "id": 21, "name": "Diabetes" }
+{
+  "packages": [
+    {
+      "id": 1,
+      "name": "Pregnancy"
+    },
+    {
+      "id": 2,
+      "name": "AIDS"
+    },
+    {
+      "id": 3,
+      "name": "Covid-19"
+    },
+    {
+      "id": 4,
+      "name": "Anemia"
+    },
+    {
+      "id": 5,
+      "name": "Arthritis"
+    },
+    {
+      "id": 6,
+      "name": "Cancer"
+    },
+    {
+      "id": 7,
+      "name": "Hairfall"
+    },
+    {
+      "id": 8,
+      "name": "Dental"
+    },
+    {
+      "id": 9,
+      "name": "Leukemia"
+    },
+    {
+      "id": 10,
+      "name": "Dengue"
+    },
+    {
+      "id": 11,
+      "name": "Fever"
+    },
+    {
+      "id": 12,
+      "name": "Migraine"
+    },
+    {
+      "id": 13,
+      "name": "ENT"
+    },
+    {
+      "id": 14,
+      "name": "Psoriasis"
+    },
+    {
+      "id": 15,
+      "name": "Eczema"
+    },
+    {
+      "id": 16,
+      "name": "Fracture"
+    },
+    {
+      "id": 17,
+      "name": "Prostate"
+    },
+    {
+      "id": 18,
+      "name": "Dialysis"
+    },
+    {
+      "id": 19,
+      "name": "Cardiac"
+    },
+    {
+      "id": 20,
+      "name": "Asthma"
+    },
+    {
+      "id": 21,
+      "name": "Diabetes"
+    }
   ],
   "organs": [
-    { "id": 1, "name": "Bone" },
-    { "id": 2, "name": "Kidneys" },
-    { "id": 3, "name": "Liver" },
-    { "id": 4, "name": "Brain" },
-    { "id": 5, "name": "Lungs" },
-    { "id": 6, "name": "Heart" },
-    { "id": 7, "name": "Gallbladder" },
-    { "id": 8, "name": "pancreas" },
-    { "id": 9, "name": "Arteries" },
-    { "id": 10, "name": "Stomach" },
-    { "id": 11, "name": "Pituitary" },
-    { "id": 12, "name": "Thyroid" },
-    { "id": 13, "name": "Skin" },
-    { "id": 14, "name": "Lymph Node" },
-    { "id": 15, "name": "Nervous System" },
-    { "id": 16, "name": "Diaphragm" },
-    { "id": 17, "name": "EsoPhagus" },
-    { "id": 18, "name": "Prostate" },
-    { "id": 19, "name": "Dialysis" },
-    { "id": 20, "name": "Cardiac" },
-    { "id": 21, "name": "Asthma" },
-    { "id": 22, "name": "Diabetes" }
+    {
+      "id": 1,
+      "name": "Bone"
+    },
+    {
+      "id": 2,
+      "name": "Kidneys"
+    },
+    {
+      "id": 3,
+      "name": "Liver"
+    },
+    {
+      "id": 4,
+      "name": "Brain"
+    },
+    {
+      "id": 5,
+      "name": "Lungs"
+    },
+    {
+      "id": 6,
+      "name": "Heart"
+    },
+    {
+      "id": 7,
+      "name": "Gallbladder"
+    },
+    {
+      "id": 8,
+      "name": "pancreas"
+    },
+    {
+      "id": 9,
+      "name": "Arteries"
+    },
+    {
+      "id": 10,
+      "name": "Stomach"
+    },
+    {
+      "id": 11,
+      "name": "Pituitary"
+    },
+    {
+      "id": 12,
+      "name": "Thyroid"
+    },
+    {
+      "id": 13,
+      "name": "Skin"
+    },
+    {
+      "id": 14,
+      "name": "Lymph Node"
+    },
+    {
+      "id": 15,
+      "name": "Nervous System"
+    },
+    {
+      "id": 16,
+      "name": "Diaphragm"
+    },
+    {
+      "id": 17,
+      "name": "EsoPhagus"
+    },
+    {
+      "id": 18,
+      "name": "Prostate"
+    },
+    {
+      "id": 19,
+      "name": "Dialysis"
+    },
+    {
+      "id": 20,
+      "name": "Cardiac"
+    },
+    {
+      "id": 21,
+      "name": "Asthma"
+    },
+    {
+      "id": 22,
+      "name": "Diabetes"
+    }
   ],
-  "faq":[
-    {"id":1,"title":"What services does Happiest Diagnostics offers?","description":"Medical tests and scans"},
-    {"id":1,"title":"Do you have a physical location for sample collection?","description":"Yes, we do have varios physical locations around the city to collect the sample"},
-    {"id":1,"title":"Which area do you serve for Home sample collection","description":"All the areas both urban and rural areas"}
+  "faq": [
+    {
+      "id": 1,
+      "title": "What services does Happiest Diagnostics offers?",
+      "description": "Medical tests and scans"
+    },
+    {
+      "id": 1,
+      "title": "Do you have a physical location for sample collection?",
+      "description": "Yes, we do have varios physical locations around the city to collect the sample"
+    },
+    {
+      "id": 1,
+      "title": "Which area do you serve for Home sample collection",
+      "description": "All the areas both urban and rural areas"
+    }
   ],
   "testsData": [
     {
@@ -58,7 +200,24 @@
       "price": 683,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 2,
@@ -67,7 +226,24 @@
       "price": 1350,
       "link": "malaria-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 3,
@@ -76,7 +252,24 @@
       "price": 2020,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 4,
@@ -85,7 +278,24 @@
       "price": 655,
       "link": "cholesterol-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 5,
@@ -94,7 +304,24 @@
       "price": 1038,
       "link": "iron-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 6,
@@ -103,7 +330,24 @@
       "price": 3135,
       "link": "kidney-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 7,
@@ -112,7 +356,24 @@
       "price": 2758,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 8,
@@ -121,7 +382,24 @@
       "price": 3199,
       "link": "iron-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 9,
@@ -130,7 +408,24 @@
       "price": 3437,
       "link": "complete-blood-count",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 10,
@@ -139,7 +434,24 @@
       "price": 3020,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 11,
@@ -148,7 +460,24 @@
       "price": 3439,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 12,
@@ -157,7 +486,24 @@
       "price": 1502,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 13,
@@ -166,7 +512,24 @@
       "price": 2101,
       "link": "kidney-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 14,
@@ -175,7 +538,24 @@
       "price": 1242,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 15,
@@ -184,7 +564,24 @@
       "price": 2686,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 16,
@@ -193,7 +590,24 @@
       "price": 2427,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 17,
@@ -202,7 +616,24 @@
       "price": 757,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 18,
@@ -211,7 +642,24 @@
       "price": 2045,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 19,
@@ -220,7 +668,24 @@
       "price": 3386,
       "link": "lipid-profile",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 20,
@@ -229,7 +694,24 @@
       "price": 2559,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 21,
@@ -238,7 +720,24 @@
       "price": 2235,
       "link": "malaria-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 22,
@@ -247,7 +746,24 @@
       "price": 2234,
       "link": "lipid-profile",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 23,
@@ -256,7 +772,24 @@
       "price": 581,
       "link": "lipid-profile",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 24,
@@ -265,7 +798,24 @@
       "price": 2723,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 25,
@@ -274,7 +824,24 @@
       "price": 2975,
       "link": "urine-analysis",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 26,
@@ -283,7 +850,24 @@
       "price": 1486,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 27,
@@ -292,7 +876,24 @@
       "price": 2894,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 28,
@@ -301,7 +902,24 @@
       "price": 3012,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 29,
@@ -310,7 +928,24 @@
       "price": 2360,
       "link": "complete-blood-count",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 30,
@@ -319,7 +954,24 @@
       "price": 3148,
       "link": "calcium-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 31,
@@ -328,7 +980,24 @@
       "price": 1782,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 32,
@@ -337,7 +1006,24 @@
       "price": 1587,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 33,
@@ -346,7 +1032,24 @@
       "price": 1608,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 34,
@@ -355,7 +1058,24 @@
       "price": 3497,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 35,
@@ -364,7 +1084,24 @@
       "price": 1525,
       "link": "urine-analysis",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 36,
@@ -373,7 +1110,24 @@
       "price": 2415,
       "link": "kidney-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 37,
@@ -382,7 +1136,24 @@
       "price": 2502,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 38,
@@ -391,7 +1162,24 @@
       "price": 3119,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 39,
@@ -400,7 +1188,24 @@
       "price": 1719,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 40,
@@ -409,7 +1214,24 @@
       "price": 3341,
       "link": "calcium-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 41,
@@ -418,7 +1240,24 @@
       "price": 3499,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 42,
@@ -427,7 +1266,24 @@
       "price": 1626,
       "link": "dengue-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 43,
@@ -436,7 +1292,24 @@
       "price": 2219,
       "link": "electrolyte-panel",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 44,
@@ -445,7 +1318,24 @@
       "price": 922,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 45,
@@ -454,7 +1344,24 @@
       "price": 783,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 46,
@@ -463,7 +1370,24 @@
       "price": 1791,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 47,
@@ -472,7 +1396,24 @@
       "price": 2721,
       "link": "electrolyte-panel",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 48,
@@ -481,7 +1422,24 @@
       "price": 1420,
       "link": "lipid-profile",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 49,
@@ -490,7 +1448,24 @@
       "price": 1764,
       "link": "urine-analysis",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 50,
@@ -499,7 +1474,24 @@
       "price": 1031,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 51,
@@ -508,7 +1500,24 @@
       "price": 913,
       "link": "electrolyte-panel",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 52,
@@ -517,7 +1526,24 @@
       "price": 941,
       "link": "kidney-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 53,
@@ -526,7 +1552,24 @@
       "price": 611,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 54,
@@ -535,7 +1578,24 @@
       "price": 803,
       "link": "cholesterol-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 55,
@@ -544,7 +1604,24 @@
       "price": 2615,
       "link": "calcium-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 56,
@@ -553,7 +1630,24 @@
       "price": 2942,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 57,
@@ -562,7 +1656,24 @@
       "price": 1155,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 58,
@@ -571,7 +1682,24 @@
       "price": 662,
       "link": "calcium-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 59,
@@ -580,7 +1708,24 @@
       "price": 3340,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 60,
@@ -589,7 +1734,24 @@
       "price": 1324,
       "link": "malaria-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 61,
@@ -598,7 +1760,24 @@
       "price": 689,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 62,
@@ -607,7 +1786,24 @@
       "price": 1414,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 63,
@@ -616,7 +1812,24 @@
       "price": 552,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 64,
@@ -625,7 +1838,24 @@
       "price": 2349,
       "link": "dengue-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 65,
@@ -634,7 +1864,24 @@
       "price": 2777,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 66,
@@ -643,7 +1890,24 @@
       "price": 2482,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 67,
@@ -652,7 +1916,24 @@
       "price": 1846,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 68,
@@ -661,7 +1942,24 @@
       "price": 3215,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 69,
@@ -670,7 +1968,24 @@
       "price": 2588,
       "link": "dengue-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 70,
@@ -679,7 +1994,24 @@
       "price": 3045,
       "link": "calcium-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 71,
@@ -688,7 +2020,24 @@
       "price": 3289,
       "link": "cholesterol-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 72,
@@ -697,7 +2046,24 @@
       "price": 3052,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 73,
@@ -706,7 +2072,24 @@
       "price": 2766,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 74,
@@ -715,7 +2098,24 @@
       "price": 778,
       "link": "lipid-profile",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 75,
@@ -724,7 +2124,24 @@
       "price": 1558,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 76,
@@ -733,7 +2150,24 @@
       "price": 818,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 77,
@@ -742,7 +2176,24 @@
       "price": 3492,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 78,
@@ -751,7 +2202,24 @@
       "price": 2536,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 79,
@@ -760,7 +2228,24 @@
       "price": 2438,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 80,
@@ -769,7 +2254,24 @@
       "price": 1877,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 81,
@@ -778,7 +2280,24 @@
       "price": 3198,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 82,
@@ -787,7 +2306,24 @@
       "price": 1061,
       "link": "hepatitis-b-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 83,
@@ -796,7 +2332,24 @@
       "price": 823,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 84,
@@ -805,7 +2358,24 @@
       "price": 2728,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 85,
@@ -814,7 +2384,24 @@
       "price": 2642,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 86,
@@ -823,7 +2410,24 @@
       "price": 2743,
       "link": "fever-panel",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 87,
@@ -832,7 +2436,24 @@
       "price": 1422,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 48 Hrs after sample has been collected."
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 88,
@@ -841,7 +2462,24 @@
       "price": 1310,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 89,
@@ -850,7 +2488,24 @@
       "price": 2038,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 90,
@@ -859,7 +2514,24 @@
       "price": 1945,
       "link": "thyroid-function-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 91,
@@ -868,7 +2540,24 @@
       "price": 2625,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 92,
@@ -877,7 +2566,24 @@
       "price": 1579,
       "link": "blood-sugar-fasting",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 93,
@@ -886,7 +2592,24 @@
       "price": 1516,
       "link": "hiv-screening",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 94,
@@ -895,7 +2618,24 @@
       "price": 898,
       "link": "albumin-serum",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 95,
@@ -904,7 +2644,24 @@
       "price": 2522,
       "link": "malaria-test",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 96,
@@ -913,7 +2670,24 @@
       "price": 2913,
       "link": "hba1c-test",
       "type": "test",
-      "timeTaken": "Reported within 24 Hrs after sample has been collected."
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 97,
@@ -922,7 +2696,24 @@
       "price": 1329,
       "link": "complete-blood-count",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 98,
@@ -931,7 +2722,24 @@
       "price": 2041,
       "link": "vitamin-d-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 99,
@@ -940,7 +2748,24 @@
       "price": 2020,
       "link": "liver-function-test",
       "type": "test",
-      "timeTaken": "Reported within 12 Hrs after sample has been collected."
+      "timeTaken": "Reported within 12 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
     },
     {
       "id": 100,
@@ -949,7 +2774,232 @@
       "price": 2918,
       "link": "covid-19-rt-pcr",
       "type": "test",
-      "timeTaken": "Reported within 8 Hrs after sample has been collected."
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "4",
+      "title": "Cholesterol Test",
+      "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
+      "price": 655,
+      "link": "cholesterol-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Iron Test",
+      "description": "3 Tests Included: Tests iron levels in the body., Tests iron levels in the body., Tests iron levels in the body.",
+      "price": 1038,
+      "link": "iron-test",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Kidney Function Test",
+      "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
+      "price": 3135,
+      "link": "kidney-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Cholesterol Test",
+      "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
+      "price": 655,
+      "link": "cholesterol-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Complete Blood Count",
+      "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
+      "price": 3437,
+      "link": "complete-blood-count",
+      "type": "test",
+      "timeTaken": "Reported within 48 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Liver Function Test",
+      "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
+      "price": 683,
+      "link": "liver-function-test",
+      "type": "test",
+      "timeTaken": "Reported within 24 Hrs after sample has been collected.",
+      "samplesRequiered": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    }
+  ],
+  "packageDetails": [
+    {
+      "id": 1,
+      "title": "Health Checkup Package",
+      "description": "This package includes a variety of essential health tests.",
+      "price": 500,
+      "shortDescription": "Reported within 6 hours after sample is received",
+      "samplesRequired": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination",
+        "Calcium Test",
+        "C-Reactive Protein (CRP)",
+        "Vitamin D Test",
+        "Vitamin B12 Test",
+        "Iron Studies",
+        "C-Reactive Protein (CRP)",
+        "Serum Creatinine",
+        "Uric Acid",
+        "Electrolytes (Sodium, Potassium, Chloride)",
+        "Complete Blood Count (CBC)",
+        "Erythrocyte Sedimentation Rate (ESR)",
+        "Prothrombin Time (PT)",
+        "Alanine Aminotransferase (ALT)",
+        "Aspartate Aminotransferase (AST)",
+        "Alkaline Phosphatase (ALP)",
+        "Bilirubin Total",
+        "Gamma-Glutamyl Transferase (GGT)",
+        "Total Protein",
+        "Albumin",
+        "Globulin",
+        "Cholesterol (Total)",
+        "HDL Cholesterol",
+        "LDL Cholesterol",
+        "Triglycerides"
+      ]
     }
   ]
 }

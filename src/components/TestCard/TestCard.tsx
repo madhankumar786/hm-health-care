@@ -13,41 +13,63 @@ import PageIcon from "@mui/icons-material/InsertDriveFile"; // Page icon for inf
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward"; // Arrow icon for View Details button
 import "./TestCard.css";
 import { useNavigate } from "react-router-dom";
+import { RootState, AppDispatch } from 'store/store';
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart } from "store/store";
 
 interface TestCardProps {
-  type: string; // Dynamic type: test/package
-  name: string; // Test or Package Name
-  description: string; // Description
-  price: number; // Price in Rupees
-  timeTaken: string; // Time taken for the test/package
-  id:number;
+  test:{
+    type: string; // Dynamic type: test/package
+    title: string; // Test or Package Name
+    description: string; // Description
+    price: number; // Price in Rupees
+    timeTaken: string; // Time taken for the test/package
+    id:number;
+  }
   // onBuyNow: () => void;
   // onAddToCart: () => void;
   // onViewDetails: () => void;
 }
 
-const TestCard: React.FC<TestCardProps> = ({
-  type,
-  name,
-  description,
-  price,
-  timeTaken,
-  id,
-}) => {
+const TestCard: React.FC<TestCardProps> = ({ test }) => {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
+  const dispatch = useDispatch<AppDispatch>();
+  const cart = useSelector((state: RootState) => state.cart.cartItems);
 
   const navigate = useNavigate();
-  const handleAddToCart = () => {
-    setIsAddedToCart(true);
-    setModalMessage(`Product ${name} is successfully added to cart`);
-    setModalOpen(true);
+
+  const handleAddToCart = async () => {
+    try {
+      const resultAction = await dispatch(addToCart(test));
+  
+      if (addToCart.fulfilled.match(resultAction)) {
+        setIsAddedToCart(true);
+        setModalMessage(`${test.title} has been added to the cart`);
+        setModalOpen(true);
+      } else if (addToCart.rejected.match(resultAction)) {
+        setModalMessage(`Failed to add ${test.title} to the cart. Please try again.`);
+        setModalOpen(true);
+      }
+  
+      setModalOpen(true); // Open modal in both success and failure cases
+    } catch (error) {
+      // In case of an unexpected error, handle it as well
+      setModalMessage(`An error occurred while adding ${test.title} to the cart.`);
+      setModalOpen(true);
+    }
   };
+  // const handleAddToCart = () => {
+  //   dispatch(addToCart(test));
+  //   setIsAddedToCart(true);
+  //   setModalMessage(`Product ${test.title} is successfully added to cart`);
+  //   setModalOpen(true);
+  // };
 
   const handleRemoveFromCart = () => {
     setIsAddedToCart(false);
-    setModalMessage(`Product ${name} is removed from cart`);
+    setModalMessage(`Product ${test.title} is removed from cart`);
     setModalOpen(true);
   };
 
@@ -69,6 +91,7 @@ const TestCard: React.FC<TestCardProps> = ({
         boxShadow: 2,
         textAlign: "left",
         p: 1,
+        m:0,
       }}
       className="testCardStyle"
     >
@@ -91,7 +114,7 @@ const TestCard: React.FC<TestCardProps> = ({
               borderRadius: "0px 0px 4px 4px",
             }}
           >
-            {type === "test" ? "Test" : "Package"}
+            {test.type === "test" ? "Test" : "Package"}
           </Typography>
         </Box>
 
@@ -101,7 +124,7 @@ const TestCard: React.FC<TestCardProps> = ({
           sx={{ fontSize: "14px", fontWeight: 600, lineHeight: "2em" }}
           component="div"
         >
-          {name}
+          {test.title}
         </Typography>
 
         {/* Description below title, in grey, smaller than title */}
@@ -111,7 +134,7 @@ const TestCard: React.FC<TestCardProps> = ({
           color="text.secondary"
           sx={{ marginBottom: "10px", fontSize: "12px" }}
         >
-          {description}
+          {test.description}
         </Typography>
 
         {/* Price in Rupees */}
@@ -119,7 +142,7 @@ const TestCard: React.FC<TestCardProps> = ({
           variant="h5"
           sx={{ marginBottom: "20px", fontWeight: "bold", fontSize: "1rem" }}
         >
-          ₹{price}
+          ₹{test.price}
         </Typography>
 
         {/* Buttons: Buy Now (outlined), Add to Cart (filled) */}
@@ -170,7 +193,7 @@ const TestCard: React.FC<TestCardProps> = ({
                 <Box sx={{display:'flex',flexDirection:'row',justifyContent:'center',alignContent:"center",alignItems:'center',height:'100%'}}>
                   <PageIcon fontSize="small" color="action" sx={{flex:1}}/>
                   <Typography variant="body2" color="text.secondary" sx={{flex:4}} className="timeTakenStyle">
-                    {timeTaken}
+                    {test.timeTaken}
                   </Typography>
                 </Box>
               </Box>
@@ -180,7 +203,7 @@ const TestCard: React.FC<TestCardProps> = ({
                   endIcon={<ArrowForwardIcon />}
                   color="primary"
                   sx={{textTransform:'capitalize'}}
-                  onClick={() => handleOnClickViewDetails(id)}
+                  onClick={() => handleOnClickViewDetails(test.id)}
                 >
                   View Details
                 </Button>

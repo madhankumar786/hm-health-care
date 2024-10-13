@@ -14,6 +14,8 @@ import {
   ListItemButton,
   ListItemIcon,
   ListItemText,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
 import {
   ExpandMore as ExpandMoreIcon,
@@ -26,14 +28,14 @@ import {
 import CheckIcon from "@mui/icons-material/Check"; // Placeholder for tile icons
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchTestPackageData, RootState } from "store/store";
+import { fetchTestPackageData, RootState, getPackageDetails, clearPackageDetails, AppDispatch } from "store/store";
 
 // TypeScript interfaces/types
 interface TestPackageProps {
   title: string;
   description: string;
   price: number;
-  shortDescription: string;
+  timeTaken: string;
   samplesRequired: string[];
   testsIncluded: string[];
   tiles: Tile[];
@@ -47,29 +49,111 @@ interface Tile {
 const PackageDetails: React.FC = () => {
   const [showMoreTests, setShowMoreTests] = useState(false);
   const { testId } = useParams<{ testId: string }>();
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<AppDispatch>();
 
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   // const { testPackageData, loading, error } = useSelector((state: RootState) => state.testsPackageDetails);
   //temporary package details data starts
+
+  
+  // Local state to manage errors or loading states
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  
+  const { data, status, error } = useSelector((state: RootState) => state.viewDetails);
+
+  useEffect(() => {
+    if (testId) {
+      // Dispatch the action to fetch package details and handle possible rejection
+      dispatch(getPackageDetails(Number(testId)))
+        .unwrap()
+        .catch((err) => {
+          // Handle the rejection (error)
+          console.error('Error fetching package details:', err);
+          setErrorMessage('Failed to fetch package details. Please try again later.');
+        });
+    }
+
+    // Clear package details when the component unmounts
+    return () => {
+      dispatch(clearPackageDetails());
+    };
+  }, [testId, dispatch]);
+
+  if (status === 'loading') {
+    return <div>Loading...</div>;
+  }
+
+  if (status === 'failed') {
+    return <div>Error: {error}</div>;
+  }
+
+  console.log(data,'view details data from the redux toolkit store');
   const testPackageData = {
     title: "Health Checkup Package",
     description: "This package includes a variety of essential health tests.",
     price: 500,
-    shortDescription: "Reported within 6 hours after sample is received",
+    timeTaken: "Reported within 6 hours after sample is received",
     samplesRequired: ["Blood Sample","Saliva Sample"],
-    testsIncluded: Array.from({ length: 26 }, (_, i) => `Test ${i + 1}`),
+    testsIncluded: ["Hemoglobin (Hb)",
+  "RBC Count",
+  "WBC Count",
+  "Platelet Count",
+  "Blood Sugar (Fasting)",
+  "Blood Sugar (Postprandial)",
+  "Lipid Profile",
+  "Liver Function Test (LFT)",
+  "Kidney Function Test (KFT)",
+  "Thyroid Stimulating Hormone (TSH)",
+  "Urine Routine Examination",
+  "Calcium Test",
+  "C-Reactive Protein (CRP)",
+  "Vitamin D Test",
+  "Vitamin B12 Test",
+  "Iron Studies",
+  "C-Reactive Protein (CRP)",
+  "Serum Creatinine",
+  "Uric Acid",
+  "Electrolytes (Sodium, Potassium, Chloride)",
+  "Complete Blood Count (CBC)",
+  "Erythrocyte Sedimentation Rate (ESR)",
+  "Prothrombin Time (PT)",
+  "Alanine Aminotransferase (ALT)",
+  "Aspartate Aminotransferase (AST)",
+  "Alkaline Phosphatase (ALP)",
+  "Bilirubin Total",
+  "Gamma-Glutamyl Transferase (GGT)",
+  "Total Protein",
+  "Albumin",
+  "Globulin",
+  "Cholesterol (Total)",
+  "HDL Cholesterol",
+  "LDL Cholesterol",
+  "Triglycerides"],
     tiles: [
       {
-        icon: <HouseProcessingIcon color="primary" />,
+        icon: <HouseProcessingIcon color="primary" sx={{fontSize:'20px'}} />,
         title: "In-House Processing",
       },
-      { icon: <HouseIcon color="primary" />, title: "Home Collection" },
+      { icon: <HouseIcon color="primary" sx={{fontSize:'20px'}}/>, title: "Home Collection" },
       {
-        icon: <KnowledgeInsightIcon color="primary" />,
+        icon: <KnowledgeInsightIcon color="primary" sx={{fontSize:'20px'}}/>,
         title: "Knowledge Insights",
       },
     ],
   };
+  const  tiles = [
+    {
+      icon: <HouseProcessingIcon color="primary" sx={{fontSize:'20px'}} />,
+      title: "In-House Processing",
+    },
+    { icon: <HouseIcon color="primary" sx={{fontSize:'20px'}}/>, title: "Home Collection" },
+    {
+      icon: <KnowledgeInsightIcon color="primary" sx={{fontSize:'20px'}}/>,
+      title: "Knowledge Insights",
+    },
+  ];
+
   //temporary package details data ends
   // useEffect(() => {
   //   if (testId) {
@@ -89,9 +173,9 @@ const PackageDetails: React.FC = () => {
   //   return <Typography>No test package data found.</Typography>;
   // }
   return (
-    <Grid container spacing={3} padding={3} sx={{ background: "#e1f0fc" }}>
+    <Grid container sx={{ background: "#e1f0fc",px: isMobile ? '0px':'3rem', pt:'0px',pb:'1rem' }}>
       {/* Left Section */}
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} md={6} sx={{px:isMobile ? '1rem':'2rem'}} className="leftsection">
         {/* Title and Description */}
         <Box sx={{ textAlign: "left" }}>
           <Typography
@@ -153,7 +237,7 @@ const PackageDetails: React.FC = () => {
           my={3}
           sx={{ textAlign: "left" }}
         >
-          {testPackageData.shortDescription}
+          Reported within {testPackageData.timeTaken} hours after sample is received
         </Typography>
 
         {/* Sample(s) Required Section */}
@@ -190,7 +274,7 @@ const PackageDetails: React.FC = () => {
           }}
         >
           <Grid container spacing={1} sx={{ display: "flex" }}>
-            {testPackageData.tiles.map((tile, index) => (
+            {tiles.map((tile, index) => (
               <Box
                 alignItems="center"
                 key={index}
@@ -202,9 +286,9 @@ const PackageDetails: React.FC = () => {
                   p: 1,
                 }}
               >
-                <Box>
+                <Box sx={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',justifyItems:'center'}}>
                   <Box
-                    sx={{ display: "inline-block", verticalAlign: "middle" }}
+                    sx={{ display: "inline-block", verticalAlign: "middle",background:'#ffffff' }}
                   >
                     {tile.icon}
                   </Box>
@@ -229,9 +313,8 @@ const PackageDetails: React.FC = () => {
           </Grid>
         </Box>
       </Grid>
-
       {/* Right Section */}
-      <Grid item xs={12} md={6} sx={{ textAlign: "left" }}>
+      <Grid item xs={12} md={6} sx={{ textAlign: "left" ,px:isMobile ? '1rem':'2rem',mt:'1rem'}} className="rightsection">
         {/* About This Test */}
         <Typography
           variant="h6"
@@ -240,7 +323,7 @@ const PackageDetails: React.FC = () => {
           About This Test
         </Typography>
         <Divider />
-        <Typography variant="body2" color="textSecondary" paragraph>
+        <Typography variant="body2" color="textSecondary" paragraph sx={{my:1}}>
           This is a short two-line description about the test. It will have
           ellipses for overflowing content...
         </Typography>
@@ -267,7 +350,13 @@ const PackageDetails: React.FC = () => {
             testPackageData.testsIncluded
               .slice(10)
               .map((test, index) => (
-                <ListItem key={index + 10}>{test}</ListItem>
+                // <ListItem key={index + 10}>{test}</ListItem>
+                <ListItem disablePadding key={index} sx={{my:'2px'}}>
+              <ListItemIcon sx={{ display: "inline-block", minWidth: "16px" }}>
+                <ListIcon sx={{ fontSize: "5px", color: "#000000" }} />
+              </ListItemIcon>
+              <Typography sx={{ fontSize: "14px" }}>{test}</Typography>
+            </ListItem>
               ))}
         </List>
         <Button

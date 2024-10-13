@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import './SearchBar.css';
+import {ModalSearch} from 'components';
 
 const SearchBar: React.FC = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+   // Function to handle opening the modal
+   const handleSearchClick = () => {
+    setIsModalOpen(true);
+  };
+
+  // Function to handle closing the modal
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
   return (
+    <>
     <TextField
       variant="outlined"
       placeholder="Search by tests or checkups..."
       fullWidth
       className="searchBarStyle"
+      onClick={handleSearchClick} // Open modal on click
       sx={{
         backgroundColor:'#ffffff',
         border:'2px solid #289fff',
@@ -35,6 +49,9 @@ const SearchBar: React.FC = () => {
         ),
       }}
     />
+    {/* ModalSearch Component */}
+    <ModalSearch open={isModalOpen} onClose={handleCloseModal} />
+    </>
   );
 };
 

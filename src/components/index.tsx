@@ -11,3 +11,4 @@ export { default as PackagesComponent } from './PackagesComponent/PackagesCompon
 export { default as AccordionComponent } from './AccordionComponent/AccordionComponent';
 export { default as SnackbarNotification } from './SnackbarNotification/SnackbarNotification';
 export { default as TestCard } from './TestCard/TestCard';
+export { default as ModalSearch} from './ModalSearch/ModalSearch';

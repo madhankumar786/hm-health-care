@@ -9,44 +9,6 @@ import {
 } from "components";
 import { fetchPackages, RootState, AppDispatch, fetchFAQ, fetchOrgansPackages, showSnackbar } from "store/store";
 
-const dataa = [
-  "Pregnancy",
-  "AIDS",
-  "Covid-19",
-  "Anemia",
-  "SARS",
-  "Arthritis",
-  "Cancer",
-  "Hairfall",
-  "Dental",
-  "Dengue",
-  "Fever",
-  "ENT",
-  "Psoriasis",
-  "Eczema",
-  "Fracture",
-  "Prostate",
-  "Dialysis",
-  "Cardiac",
-  "Asthma",
-  "Diabetes",
-];
-const accordionData = [
-  {
-    title: "What is React?",
-    content: "React is a JavaScript library for building user interfaces.",
-  },
-  {
-    title: "What is TypeScript?",
-    content: "TypeScript is a superset of JavaScript that adds static typing.",
-  },
-  {
-    title: "What is Material UI?",
-    content: "Material UI is a popular React UI framework.",
-  },
-];
-const checkupData = [];
-
 const Diagnostics: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
