@@ -18,9 +18,14 @@ export const fetchSearchResults = createAsyncThunk(
   'modalSearch/fetchSearchResults',
   async (query: string, { rejectWithValue }) => {
     try {
-      const response = await apiClient.get(`/testsData?q=${query}`);
-      console.log('inside fetchSearchResult786')
-      return response.data; 
+    //   const response = await apiClient.get(`/testsData?q=${query}`);
+      const response = await apiClient.get(`/testsData?title_like=${query}`);
+      const filteredResults = response.data.filter((test: any) =>
+        test.title.toLowerCase().includes(query.toLowerCase())
+      );
+         console.log('inside fetchSearchResult786')
+      return filteredResults;
+    //   return response.data; 
     } catch (err: any) {
       return rejectWithValue('Failed to fetch search results');
     }

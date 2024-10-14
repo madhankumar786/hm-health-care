@@ -201,10 +201,7 @@
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -227,10 +224,7 @@
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -253,10 +247,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -279,10 +270,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -305,10 +293,7 @@
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -331,10 +316,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -357,10 +339,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -383,10 +362,7 @@
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -409,10 +385,7 @@
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -429,16 +402,13 @@
     },
     {
       "id": "10",
-      "title": "Liver Function Test",
+      "title": "Fatty Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 3020,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -461,10 +431,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -487,10 +454,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -513,10 +477,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -539,10 +500,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -565,10 +523,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -591,10 +546,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -617,10 +569,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -643,10 +592,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -669,10 +615,7 @@
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -695,10 +638,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -721,10 +661,7 @@
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -747,10 +684,7 @@
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -773,10 +707,7 @@
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -799,10 +730,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -825,10 +753,7 @@
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -851,10 +776,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -877,10 +799,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -903,10 +822,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -929,10 +845,7 @@
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -955,10 +868,7 @@
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -981,10 +891,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1007,10 +914,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1027,16 +931,13 @@
     },
     {
       "id": "33",
-      "title": "Liver Function Test",
+      "title": "Liver Cancer Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 1608,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1059,10 +960,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1085,10 +983,7 @@
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1111,10 +1006,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1137,10 +1029,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1163,10 +1052,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1189,10 +1075,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1215,10 +1098,7 @@
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1241,10 +1121,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1267,10 +1144,7 @@
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1293,10 +1167,7 @@
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1319,10 +1190,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1345,10 +1213,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1371,10 +1236,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1397,10 +1259,7 @@
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1423,10 +1282,7 @@
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1449,10 +1305,7 @@
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1475,10 +1328,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1501,10 +1351,7 @@
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1527,10 +1374,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1547,16 +1391,13 @@
     },
     {
       "id": "53",
-      "title": "Liver Function Test",
+      "title": "Liver Problem Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 611,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1579,10 +1420,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1605,10 +1443,7 @@
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1631,10 +1466,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1657,10 +1489,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1683,10 +1512,7 @@
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1709,10 +1535,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1735,10 +1558,7 @@
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1761,10 +1581,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1787,10 +1604,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1813,10 +1627,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1839,10 +1650,7 @@
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1865,10 +1673,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1891,10 +1696,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1917,10 +1719,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1943,10 +1742,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1969,10 +1765,7 @@
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -1995,10 +1788,7 @@
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2021,10 +1811,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2047,10 +1834,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2067,16 +1851,13 @@
     },
     {
       "id": "73",
-      "title": "Liver Function Test",
+      "title": "Liver Disfunction Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2766,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2099,10 +1880,7 @@
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2125,10 +1903,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2151,10 +1926,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2177,10 +1949,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2203,10 +1972,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2229,10 +1995,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2255,10 +2018,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2281,10 +2041,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2307,10 +2064,7 @@
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2333,10 +2087,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2359,10 +2110,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2385,10 +2133,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2411,10 +2156,7 @@
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2437,10 +2179,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2463,10 +2202,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2483,16 +2219,13 @@
     },
     {
       "id": "89",
-      "title": "Liver Function Test",
+      "title": "Liver Treatment Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2038,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2515,10 +2248,7 @@
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2541,10 +2271,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2567,10 +2294,7 @@
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2593,10 +2317,7 @@
       "link": "hiv-screening",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2619,10 +2340,7 @@
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2645,10 +2363,7 @@
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2671,10 +2386,7 @@
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2697,10 +2409,7 @@
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2723,10 +2432,7 @@
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2743,16 +2449,13 @@
     },
     {
       "id": "99",
-      "title": "Liver Function Test",
+      "title": "Liver Disorder Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2020,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2775,10 +2478,7 @@
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2803,10 +2503,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2829,10 +2526,7 @@
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2855,10 +2549,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2881,10 +2572,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2907,10 +2595,7 @@
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2927,16 +2612,13 @@
     },
     {
       "id": "1",
-      "title": "Liver Function Test",
+      "title": "Liver Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 683,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2959,10 +2641,7 @@
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
@@ -2985,10 +2664,7 @@
       "description": "This package includes a variety of essential health tests.",
       "price": 500,
       "shortDescription": "Reported within 6 hours after sample is received",
-      "samplesRequired": [
-        "Blood Sample",
-        "Saliva Sample"
-      ],
+      "samplesRequired": ["Blood Sample", "Saliva Sample"],
       "testsIncluded": [
         "Hemoglobin (Hb)",
         "RBC Count",
