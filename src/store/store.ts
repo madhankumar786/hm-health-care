@@ -7,6 +7,7 @@ import testsReducer from './tests/testsSlice';
 import testsPackageDetailsReducer from './testsPackageDetails/testsPackageDetails';
 import cartReducer from './cart/cartSlice';
 import viewDetailsReducer from './viewDetails/viewDetailsSlice';
+import modalSearchReducer from './modalSearch/modalSearchSlice';
 
 export * from './packages/packagesSlice';
 export * from './faq/faqSlice';
@@ -16,6 +17,7 @@ export * from './tests/testsSlice';
 export * from './testsPackageDetails/testsPackageDetails';
 export * from './cart/cartSlice';
 export * from './viewDetails/viewDetailsSlice';
+export * from './modalSearch/modalSearchSlice';
 
 
 const store = configureStore({
@@ -28,6 +30,7 @@ const store = configureStore({
     testsPackageDetails: testsPackageDetailsReducer,
     cart:cartReducer,
     viewDetails:viewDetailsReducer,
+    modalSearch:modalSearchReducer,
   },
 });
 

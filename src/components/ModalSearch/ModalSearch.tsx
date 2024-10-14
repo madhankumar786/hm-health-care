@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import {
   Modal,
   Box,
@@ -17,6 +17,8 @@ import {
   AttachMoney,
 } from "@mui/icons-material";
 import { styled } from "@mui/system";
+import { AppDispatch, fetchSearchResults, RootState } from "store/store";
+import { useDispatch, useSelector } from "react-redux";
 
 interface ModalSearchProps {
   open: boolean;
@@ -35,14 +37,44 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
 const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
   const [activeTab, setActiveTab] = useState("tests");
   const [searchTerm, setSearchTerm] = useState("");
+  const [debounceTimeout, setDebounceTimeout] = useState<NodeJS.Timeout | null>(null);
+
+  const dispatch = useDispatch<AppDispatch>();
+  const { results, loading, error } = useSelector((state: RootState) => state.modalSearch);
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: string) => {
     setActiveTab(newValue);
   };
 
-  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchTerm(event.target.value);
-  };
+    // Handle search input with debouncing
+    const handleSearch = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+      const value = e.target.value;
+      setSearchTerm(value);
+  
+      if (debounceTimeout) {
+        clearTimeout(debounceTimeout);
+      }
+  
+      const newTimeout = setTimeout(() => {
+        if (value.trim()) {
+          dispatch(fetchSearchResults(value)); // Dispatch search action
+        }
+      }, 500); // Debounce delay
+  
+      setDebounceTimeout(newTimeout);
+    }, [debounceTimeout, dispatch]);
+  // const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   setSearchTerm(event.target.value);
+  // };
+  useEffect(() => {
+    return () => {
+      if (debounceTimeout) {
+        clearTimeout(debounceTimeout);
+      }
+    };
+  }, [debounceTimeout]);
+
+  console.log(results,'search results from redux toolkit');
 
   const cards = [
     {
@@ -89,7 +121,7 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
               startAdornment: <Search />,
             }}
             value={searchTerm}
-            onChange={handleSearchChange}
+            onChange={handleSearch}
           />
         </Box>
 
