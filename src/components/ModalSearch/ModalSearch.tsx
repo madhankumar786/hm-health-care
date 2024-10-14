@@ -6,15 +6,13 @@ import {
   Tab,
   Tabs,
   Typography,
-  IconButton,
   Button,
 } from "@mui/material";
 import {
-  Search,
+  ArrowBackIosRounded,
   ArrowBack,
   Add,
   AccessTime,
-  AttachMoney,
 } from "@mui/icons-material";
 import { styled } from "@mui/system";
 import { AppDispatch, fetchSearchResults, RootState } from "store/store";
@@ -28,7 +26,7 @@ interface ModalSearchProps {
 const CustomTextField = styled(TextField)(({ theme }) => ({
   width: "100%",
   borderRadius: "10px",
-  border: "1px solid orange",
+  border: "2px solid orange",
   "& .MuiInputBase-input": {
     color: "grey",
   },
@@ -37,35 +35,40 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
 const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
   const [activeTab, setActiveTab] = useState("tests");
   const [searchTerm, setSearchTerm] = useState("");
-  const [debounceTimeout, setDebounceTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [debounceTimeout, setDebounceTimeout] = useState<NodeJS.Timeout | null>(
+    null
+  );
 
   const dispatch = useDispatch<AppDispatch>();
-  const { results, loading, error } = useSelector((state: RootState) => state.modalSearch);
+  const { results, loading, error } = useSelector(
+    (state: RootState) => state.modalSearch
+  );
 
   const handleTabChange = (event: React.SyntheticEvent, newValue: string) => {
     setActiveTab(newValue);
   };
 
-    // Handle search input with debouncing
-    const handleSearch = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+  // Handle search input with debouncing
+  const handleSearch = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>) => {
       const value = e.target.value;
       setSearchTerm(value);
-  
+
       if (debounceTimeout) {
         clearTimeout(debounceTimeout);
       }
-  
+
       const newTimeout = setTimeout(() => {
         if (value.trim()) {
           dispatch(fetchSearchResults(value)); // Dispatch search action
         }
       }, 500); // Debounce delay
-  
+
       setDebounceTimeout(newTimeout);
-    }, [debounceTimeout, dispatch]);
-  // const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //   setSearchTerm(event.target.value);
-  // };
+    },
+    [debounceTimeout, dispatch]
+  );
+  
   useEffect(() => {
     return () => {
       if (debounceTimeout) {
@@ -74,7 +77,10 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
     };
   }, [debounceTimeout]);
 
-  console.log(results,'search results from redux toolkit');
+
+  const getDiscountedPrice = (price: number) => {
+    return price - (price * 20) / 100;
+  };
 
   const cards = [
     {
@@ -112,13 +118,10 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
       >
         {/* Search Box */}
         <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
-          <IconButton onClick={onClose}>
-            <ArrowBack />
-          </IconButton>
           <CustomTextField
             placeholder="Search for tests or checkups"
             InputProps={{
-              startAdornment: <Search />,
+              startAdornment: <ArrowBackIosRounded sx={{ color: "grey" }} />,
             }}
             value={searchTerm}
             onChange={handleSearch}
@@ -159,19 +162,19 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
         <Box sx={{ mt: 2, height: "300px", overflowY: "auto" }}>
           <Typography variant="h6" sx={{ mb: 2 }}>
             {activeTab === "tests"
-              ? "Frequently Booked Tests"
-              : "Frequently Booked Checkups"}
+              ? "Tests"
+              : "Checkups"}
           </Typography>
 
-          {cards.map((card, index) => (
+          {results?.map((card, index) => (
             <Box
               key={index}
               sx={{
                 backgroundColor: "white",
                 p: 2,
-                mb: 2,
+                m: 2,
                 borderRadius: "10px",
-                boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.1)",
+                boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
               {/* Title and Add Button */}
@@ -192,7 +195,16 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
                 <Button
                   variant="outlined"
                   startIcon={<Add />}
-                  sx={{ borderColor: "#006400", color: "#006400" }}
+                  sx={{
+                    border: "2px solid #006400",
+                    color: "#006400",
+                    "&:hover": {
+                      cursor: "pointer",
+                      backgroundColor: '#006400',
+                      color:'white',
+                      border:"2px solid #006400"
+                    },
+                  }}
                 >
                   Add
                 </Button>
@@ -204,11 +216,11 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
               >
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <AccessTime sx={{ color: "grey", mr: 1 }} />
-                  <Typography variant="body2" sx={{ fontWeight: "bold" }}>
+                  {/* <Typography variant="body2" sx={{ fontWeight: "bold" }}>
                     Reports within
-                  </Typography>
+                  </Typography> */}
                   <Typography variant="body2" sx={{ color: "orange", ml: 1 }}>
-                    {card.reportsTime}
+                    {card.timeTaken}
                   </Typography>
                 </Box>
                 <Box>
@@ -220,13 +232,13 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
                       mr: 1,
                     }}
                   >
-                    ₹{card.priceOld}
+                    ₹{card.price}
                   </Typography>
                   <Typography
                     variant="body1"
                     sx={{ fontWeight: "bold", color: "black" }}
                   >
-                    ₹{card.priceNew}
+                    ₹{getDiscountedPrice(card?.price)}
                   </Typography>
                 </Box>
               </Box>
@@ -255,7 +267,7 @@ const ModalSearch: React.FC<ModalSearchProps> = ({ open, onClose }) => {
                     pl: 1,
                   }}
                 >
-                  {card.alsoKnownAs}
+                  {card.testsIncluded}
                 </Typography>
               </Box>
 

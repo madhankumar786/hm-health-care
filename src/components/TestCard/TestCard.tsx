@@ -13,7 +13,7 @@ import PageIcon from "@mui/icons-material/InsertDriveFile";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward"; 
 import "./TestCard.css";
 import { useNavigate } from "react-router-dom";
-import { RootState, AppDispatch } from 'store/store';
+import { RootState, AppDispatch, removeFromCart } from 'store/store';
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "store/store";
 
@@ -57,10 +57,22 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
     }
   };
 
-  const handleRemoveFromCart = () => {
-    setIsAddedToCart(false);
-    setModalMessage(`Product ${test.title} is removed from cart`);
-    setModalOpen(true);
+  const handleRemoveFromCart = async () => {
+    try {
+      // Dispatch the removeFromCart action and handle any potential failure
+      const resultAction = await dispatch(removeFromCart(test.id));
+
+      // Check if the action was rejected
+      if (!removeFromCart.rejected.match(resultAction)) {
+          setIsAddedToCart(false);
+          setModalMessage(`Product ${test.title} is removed from cart`);
+          setModalOpen(true);
+      }
+    } catch (error) {
+          setModalMessage(`Something went wrong${error}`);
+          setModalOpen(true);
+    }
+   
   };
 
   const handleModalClose = () => {
