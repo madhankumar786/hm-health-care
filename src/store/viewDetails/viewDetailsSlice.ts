@@ -1,6 +1,5 @@
-// src/store/slices/viewDetailsSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import apiClient from '../../utils/api/apiClient'; // Assuming you're using an apiClient instance
+import apiClient from '../../utils/api/apiClient'; 
 
 interface PackageDetailsState {
   data: any | null;

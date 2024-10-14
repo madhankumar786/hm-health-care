@@ -1,4 +1,3 @@
-// src/app/store.ts
 import { configureStore } from '@reduxjs/toolkit';
 import packagesReducer from './packages/packagesSlice';
 import faqReducer from './faq/faqSlice';

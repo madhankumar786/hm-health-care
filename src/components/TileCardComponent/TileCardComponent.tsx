@@ -3,7 +3,7 @@ import { Box, Typography, Paper } from '@mui/material';
 
 interface TileCardComponentProps {
   name: string; 
-  Icon: React.ReactNode; // The SVG icon to be displayed
+  Icon: React.ReactNode; 
   handleOnClickPackage: () => void;
 }
 

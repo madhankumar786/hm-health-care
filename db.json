@@ -1,207 +1,207 @@
 {
   "packages": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Pregnancy"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "AIDS"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Covid-19"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Anemia"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Arthritis"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Cancer"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Hairfall"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Dental"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Leukemia"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Dengue"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Fever"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Migraine"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "ENT"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Psoriasis"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Eczema"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Fracture"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Prostate"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Dialysis"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Cardiac"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Asthma"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Diabetes"
     }
   ],
   "organs": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Bone"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Kidneys"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Liver"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Brain"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lungs"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Heart"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Gallbladder"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "pancreas"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Arteries"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Stomach"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Pituitary"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Thyroid"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Skin"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Lymph Node"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Nervous System"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Diaphragm"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "EsoPhagus"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Prostate"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Dialysis"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Cardiac"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Asthma"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Diabetes"
     }
   ],
   "faq": [
     {
-      "id": 1,
+      "id": "1",
       "title": "What services does Happiest Diagnostics offers?",
       "description": "Medical tests and scans"
     },
     {
-      "id": 1,
+      "id": "1",
       "title": "Do you have a physical location for sample collection?",
       "description": "Yes, we do have varios physical locations around the city to collect the sample"
     },
     {
-      "id": 1,
+      "id": "1",
       "title": "Which area do you serve for Home sample collection",
       "description": "All the areas both urban and rural areas"
     }
   ],
   "testsData": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 683,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -220,14 +220,14 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Malaria Test",
       "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
       "price": 1350,
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -246,14 +246,14 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 2020,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -272,14 +272,14 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Cholesterol Test",
       "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
       "price": 655,
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -298,14 +298,14 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Iron Test",
       "description": "3 Tests Included: Tests iron levels in the body., Tests iron levels in the body., Tests iron levels in the body.",
       "price": 1038,
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -324,14 +324,14 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Kidney Function Test",
       "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
       "price": 3135,
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -350,14 +350,14 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 2758,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -376,14 +376,14 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Iron Test",
       "description": "3 Tests Included: Tests iron levels in the body., Tests iron levels in the body., Tests iron levels in the body.",
       "price": 3199,
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -402,14 +402,14 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Complete Blood Count",
       "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
       "price": 3437,
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -428,14 +428,14 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 3020,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -454,14 +454,14 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 3439,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -480,14 +480,14 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 1502,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -506,14 +506,14 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Kidney Function Test",
       "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
       "price": 2101,
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -532,14 +532,14 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 1242,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -558,14 +558,14 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 2686,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -584,14 +584,14 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 2427,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -610,14 +610,14 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 757,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -636,14 +636,14 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 2045,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -662,14 +662,14 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Lipid Profile",
       "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
       "price": 3386,
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -688,14 +688,14 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 2559,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -714,14 +714,14 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Malaria Test",
       "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
       "price": 2235,
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -740,14 +740,14 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Lipid Profile",
       "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
       "price": 2234,
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -766,14 +766,14 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Lipid Profile",
       "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
       "price": 581,
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -792,14 +792,14 @@
       ]
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 2723,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -818,14 +818,14 @@
       ]
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Urine Analysis",
       "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
       "price": 2975,
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -844,14 +844,14 @@
       ]
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 1486,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -870,14 +870,14 @@
       ]
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 2894,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -896,14 +896,14 @@
       ]
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 3012,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -922,14 +922,14 @@
       ]
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Complete Blood Count",
       "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
       "price": 2360,
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -948,14 +948,14 @@
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Calcium Test",
       "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
       "price": 3148,
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -974,14 +974,14 @@
       ]
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 1782,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1000,14 +1000,14 @@
       ]
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 1587,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1026,14 +1026,14 @@
       ]
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 1608,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1052,14 +1052,14 @@
       ]
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 3497,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1078,14 +1078,14 @@
       ]
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Urine Analysis",
       "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
       "price": 1525,
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1104,14 +1104,14 @@
       ]
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Kidney Function Test",
       "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
       "price": 2415,
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1130,14 +1130,14 @@
       ]
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 2502,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1156,14 +1156,14 @@
       ]
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 3119,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1182,14 +1182,14 @@
       ]
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 1719,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1208,14 +1208,14 @@
       ]
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "Calcium Test",
       "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
       "price": 3341,
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1234,14 +1234,14 @@
       ]
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 3499,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1260,14 +1260,14 @@
       ]
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Dengue Test",
       "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
       "price": 1626,
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1286,14 +1286,14 @@
       ]
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Electrolyte Panel",
       "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
       "price": 2219,
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1312,14 +1312,14 @@
       ]
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 922,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1338,14 +1338,14 @@
       ]
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 783,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1364,14 +1364,14 @@
       ]
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 1791,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1390,14 +1390,14 @@
       ]
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Electrolyte Panel",
       "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
       "price": 2721,
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1416,14 +1416,14 @@
       ]
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Lipid Profile",
       "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
       "price": 1420,
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1442,14 +1442,14 @@
       ]
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Urine Analysis",
       "description": "3 Tests Included: Examines urine for abnormalities., Examines urine for abnormalities., Examines urine for abnormalities.",
       "price": 1764,
       "link": "urine-analysis",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1468,14 +1468,14 @@
       ]
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 1031,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1494,14 +1494,14 @@
       ]
     },
     {
-      "id": 51,
+      "id": "51",
       "title": "Electrolyte Panel",
       "description": "3 Tests Included: Measures electrolytes in the blood., Measures electrolytes in the blood., Measures electrolytes in the blood.",
       "price": 913,
       "link": "electrolyte-panel",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1520,14 +1520,14 @@
       ]
     },
     {
-      "id": 52,
+      "id": "52",
       "title": "Kidney Function Test",
       "description": "3 Tests Included: Evaluates kidney health., Evaluates kidney health., Evaluates kidney health.",
       "price": 941,
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1546,14 +1546,14 @@
       ]
     },
     {
-      "id": 53,
+      "id": "53",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 611,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1572,14 +1572,14 @@
       ]
     },
     {
-      "id": 54,
+      "id": "54",
       "title": "Cholesterol Test",
       "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
       "price": 803,
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1598,14 +1598,14 @@
       ]
     },
     {
-      "id": 55,
+      "id": "55",
       "title": "Calcium Test",
       "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
       "price": 2615,
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1624,14 +1624,14 @@
       ]
     },
     {
-      "id": 56,
+      "id": "56",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 2942,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1650,14 +1650,14 @@
       ]
     },
     {
-      "id": 57,
+      "id": "57",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 1155,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1676,14 +1676,14 @@
       ]
     },
     {
-      "id": 58,
+      "id": "58",
       "title": "Calcium Test",
       "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
       "price": 662,
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1702,14 +1702,14 @@
       ]
     },
     {
-      "id": 59,
+      "id": "59",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 3340,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1728,14 +1728,14 @@
       ]
     },
     {
-      "id": 60,
+      "id": "60",
       "title": "Malaria Test",
       "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
       "price": 1324,
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1754,14 +1754,14 @@
       ]
     },
     {
-      "id": 61,
+      "id": "61",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 689,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1780,14 +1780,14 @@
       ]
     },
     {
-      "id": 62,
+      "id": "62",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 1414,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1806,14 +1806,14 @@
       ]
     },
     {
-      "id": 63,
+      "id": "63",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 552,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1832,14 +1832,14 @@
       ]
     },
     {
-      "id": 64,
+      "id": "64",
       "title": "Dengue Test",
       "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
       "price": 2349,
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1858,14 +1858,14 @@
       ]
     },
     {
-      "id": 65,
+      "id": "65",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 2777,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1884,14 +1884,14 @@
       ]
     },
     {
-      "id": 66,
+      "id": "66",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 2482,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1910,14 +1910,14 @@
       ]
     },
     {
-      "id": 67,
+      "id": "67",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 1846,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1936,14 +1936,14 @@
       ]
     },
     {
-      "id": 68,
+      "id": "68",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 3215,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1962,14 +1962,14 @@
       ]
     },
     {
-      "id": 69,
+      "id": "69",
       "title": "Dengue Test",
       "description": "3 Tests Included: Used to detect viral infections., Used to detect viral infections., Used to detect viral infections.",
       "price": 2588,
       "link": "dengue-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -1988,14 +1988,14 @@
       ]
     },
     {
-      "id": 70,
+      "id": "70",
       "title": "Calcium Test",
       "description": "3 Tests Included: Measures calcium levels., Measures calcium levels., Measures calcium levels.",
       "price": 3045,
       "link": "calcium-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2014,14 +2014,14 @@
       ]
     },
     {
-      "id": 71,
+      "id": "71",
       "title": "Cholesterol Test",
       "description": "3 Tests Included: Checks cholesterol levels., Checks cholesterol levels., Checks cholesterol levels.",
       "price": 3289,
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2040,14 +2040,14 @@
       ]
     },
     {
-      "id": 72,
+      "id": "72",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 3052,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2066,14 +2066,14 @@
       ]
     },
     {
-      "id": 73,
+      "id": "73",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2766,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2092,14 +2092,14 @@
       ]
     },
     {
-      "id": 74,
+      "id": "74",
       "title": "Lipid Profile",
       "description": "3 Tests Included: Analyzes lipid levels., Analyzes lipid levels., Analyzes lipid levels.",
       "price": 778,
       "link": "lipid-profile",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2118,14 +2118,14 @@
       ]
     },
     {
-      "id": 75,
+      "id": "75",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 1558,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2144,14 +2144,14 @@
       ]
     },
     {
-      "id": 76,
+      "id": "76",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 818,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2170,14 +2170,14 @@
       ]
     },
     {
-      "id": 77,
+      "id": "77",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 3492,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2196,14 +2196,14 @@
       ]
     },
     {
-      "id": 78,
+      "id": "78",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 2536,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2222,14 +2222,14 @@
       ]
     },
     {
-      "id": 79,
+      "id": "79",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 2438,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2248,14 +2248,14 @@
       ]
     },
     {
-      "id": 80,
+      "id": "80",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 1877,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2274,14 +2274,14 @@
       ]
     },
     {
-      "id": 81,
+      "id": "81",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 3198,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2300,14 +2300,14 @@
       ]
     },
     {
-      "id": 82,
+      "id": "82",
       "title": "Hepatitis B Test",
       "description": "3 Tests Included: Detects Hepatitis B infection., Detects Hepatitis B infection., Detects Hepatitis B infection.",
       "price": 1061,
       "link": "hepatitis-b-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2326,14 +2326,14 @@
       ]
     },
     {
-      "id": 83,
+      "id": "83",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 823,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2352,14 +2352,14 @@
       ]
     },
     {
-      "id": 84,
+      "id": "84",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 2728,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2378,14 +2378,14 @@
       ]
     },
     {
-      "id": 85,
+      "id": "85",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 2642,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2404,14 +2404,14 @@
       ]
     },
     {
-      "id": 86,
+      "id": "86",
       "title": "Fever Panel",
       "description": "3 Tests Included: Helps diagnose common infections., Helps diagnose common infections., Helps diagnose common infections.",
       "price": 2743,
       "link": "fever-panel",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2430,14 +2430,14 @@
       ]
     },
     {
-      "id": 87,
+      "id": "87",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 1422,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2456,14 +2456,14 @@
       ]
     },
     {
-      "id": 88,
+      "id": "88",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 1310,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2482,14 +2482,14 @@
       ]
     },
     {
-      "id": 89,
+      "id": "89",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2038,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2508,14 +2508,14 @@
       ]
     },
     {
-      "id": 90,
+      "id": "90",
       "title": "Thyroid Function Test",
       "description": "3 Tests Included: Assesses thyroid gland functioning., Assesses thyroid gland functioning., Assesses thyroid gland functioning.",
       "price": 1945,
       "link": "thyroid-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2534,14 +2534,14 @@
       ]
     },
     {
-      "id": 91,
+      "id": "91",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 2625,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2560,14 +2560,14 @@
       ]
     },
     {
-      "id": 92,
+      "id": "92",
       "title": "Blood Sugar Fasting",
       "description": "3 Tests Included: Determines blood sugar levels., Determines blood sugar levels., Determines blood sugar levels.",
       "price": 1579,
       "link": "blood-sugar-fasting",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2586,14 +2586,14 @@
       ]
     },
     {
-      "id": 93,
+      "id": "93",
       "title": "HIV Screening",
       "description": "3 Tests Included: Screens for HIV infection., Screens for HIV infection., Screens for HIV infection.",
       "price": 1516,
       "link": "hiv-screening",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2612,14 +2612,14 @@
       ]
     },
     {
-      "id": 94,
+      "id": "94",
       "title": "Albumin Serum",
       "description": "3 Tests Included: To Evaluate liver disease., To Evaluate liver disease., To Evaluate liver disease.",
       "price": 898,
       "link": "albumin-serum",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2638,14 +2638,14 @@
       ]
     },
     {
-      "id": 95,
+      "id": "95",
       "title": "Malaria Test",
       "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
       "price": 2522,
       "link": "malaria-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2664,14 +2664,14 @@
       ]
     },
     {
-      "id": 96,
+      "id": "96",
       "title": "HbA1c Test",
       "description": "3 Tests Included: Monitors blood sugar over time., Monitors blood sugar over time., Monitors blood sugar over time.",
       "price": 2913,
       "link": "hba1c-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2690,14 +2690,14 @@
       ]
     },
     {
-      "id": 97,
+      "id": "97",
       "title": "Complete Blood Count",
       "description": "3 Tests Included: Analyzes blood composition., Analyzes blood composition., Analyzes blood composition.",
       "price": 1329,
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2716,14 +2716,14 @@
       ]
     },
     {
-      "id": 98,
+      "id": "98",
       "title": "Vitamin D Test",
       "description": "3 Tests Included: Determines Vitamin D deficiency., Determines Vitamin D deficiency., Determines Vitamin D deficiency.",
       "price": 2041,
       "link": "vitamin-d-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2742,14 +2742,14 @@
       ]
     },
     {
-      "id": 99,
+      "id": "99",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 2020,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 12 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2768,14 +2768,14 @@
       ]
     },
     {
-      "id": 100,
+      "id": "100",
       "title": "COVID-19 RT-PCR",
       "description": "3 Tests Included: Detects COVID-19 infection., Detects COVID-19 infection., Detects COVID-19 infection.",
       "price": 2918,
       "link": "covid-19-rt-pcr",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2803,7 +2803,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2829,7 +2829,7 @@
       "link": "iron-test",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2855,7 +2855,7 @@
       "link": "kidney-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2881,7 +2881,7 @@
       "link": "cholesterol-test",
       "type": "test",
       "timeTaken": "Reported within 8 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2907,7 +2907,7 @@
       "link": "complete-blood-count",
       "type": "test",
       "timeTaken": "Reported within 48 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2926,14 +2926,40 @@
       ]
     },
     {
-      "id": 1,
+      "id": "1",
       "title": "Liver Function Test",
       "description": "3 Tests Included: Monitors liver health., Monitors liver health., Monitors liver health.",
       "price": 683,
       "link": "liver-function-test",
       "type": "test",
       "timeTaken": "Reported within 24 Hrs after sample has been collected.",
-      "samplesRequiered": [
+      "samplesRequired": [
+        "Blood Sample",
+        "Saliva Sample"
+      ],
+      "testsIncluded": [
+        "Hemoglobin (Hb)",
+        "RBC Count",
+        "WBC Count",
+        "Platelet Count",
+        "Blood Sugar (Fasting)",
+        "Blood Sugar (Postprandial)",
+        "Lipid Profile",
+        "Liver Function Test (LFT)",
+        "Kidney Function Test (KFT)",
+        "Thyroid Stimulating Hormone (TSH)",
+        "Urine Routine Examination"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Malaria Test",
+      "description": "3 Tests Included: Detects malaria infection., Detects malaria infection., Detects malaria infection.",
+      "price": 1350,
+      "link": "malaria-test",
+      "type": "test",
+      "timeTaken": "Reported within 8 Hrs after sample has been collected.",
+      "samplesRequired": [
         "Blood Sample",
         "Saliva Sample"
       ],
@@ -2954,7 +2980,7 @@
   ],
   "packageDetails": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Health Checkup Package",
       "description": "This package includes a variety of essential health tests.",
       "price": 500,

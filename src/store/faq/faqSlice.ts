@@ -1,4 +1,3 @@
-// src/store/faq/faqSlice.ts
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { FAQList } from 'types'; 
 import apiClient from '../../utils/api/apiClient'; 
@@ -15,7 +14,6 @@ const initialState: FAQState = {
     error: null,
 };
 
-// Async thunk for fetching FAQs
 export const fetchFAQ = createAsyncThunk<FAQList>(
     'faq/fetchFAQ',
     async () => {

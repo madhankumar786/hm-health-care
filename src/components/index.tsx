@@ -12,3 +12,4 @@ export { default as AccordionComponent } from './AccordionComponent/AccordionCom
 export { default as SnackbarNotification } from './SnackbarNotification/SnackbarNotification';
 export { default as TestCard } from './TestCard/TestCard';
 export { default as ModalSearch} from './ModalSearch/ModalSearch';
+export { default as BreadcrumbsNav } from './BreadcrumbsNav/BreadcrumbsNav';

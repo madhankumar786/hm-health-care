@@ -1,9 +1,8 @@
-// cartSlice.ts
 import { createSlice, PayloadAction, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 interface CartState {
-  cartItems: Array<any>; // You can replace 'any' with the correct type for your test data
+  cartItems: Array<any>; 
   status: 'idle' | 'loading' | 'failed';
 }
 
@@ -12,19 +11,16 @@ const initialState: CartState = {
   status: 'idle',
 };
 
-// Async thunk to fetch the cart from db.json
 export const fetchCart = createAsyncThunk('cart/fetchCart', async () => {
   const response = await axios.get('http://localhost:7000/cart');
   return response.data;
 });
 
-// Async thunk to add a test to the cart in db.json
 export const addToCart = createAsyncThunk('cart/addToCart', async (test: any) => {
   const response = await axios.post('http://localhost:7000/cart', test);
   return response.data;
 });
 
-// Async thunk to remove a test from the cart in db.json
 export const removeFromCart = createAsyncThunk('cart/removeFromCart', async (testId: number) => {
   await axios.delete(`http://localhost:7000/cart/${testId}`);
   return testId;

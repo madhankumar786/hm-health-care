@@ -1,16 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import {
-  Container,
   Grid,
   Box,
   useMediaQuery,
   useTheme,
   CircularProgress,
-  Modal,
-  Typography,
-  Button,
 } from "@mui/material";
-import { TestCard, TitleComponent } from "components";
+import { BreadcrumbsNav, TestCard, TitleComponent } from "components";
 import { useNavigate } from "react-router-dom";
 import { TestsBanner } from "pages";
 import { useDispatch, useSelector } from "react-redux";
@@ -23,8 +19,8 @@ const TestsPage: React.FC = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
   const { tests, loading, error } = useSelector((state: any) => state.tests);
-  const loaderRef = useRef<HTMLDivElement | null>(null); // Reference to the loader element
-  const [page, setPage] = useState(1); // Track the current page for pagination
+  const loaderRef = useRef<HTMLDivElement | null>(null); 
+  const [page, setPage] = useState(1); 
   const [hasMore, setHasMore] = useState(true);
 
   // useEffect(() => {
@@ -57,7 +53,7 @@ const TestsPage: React.FC = () => {
     };
   }, [loading, hasMore]);
 
-  // Handle empty state if no more data is available
+  // Handling empty state if no more data is available
   useEffect(() => {
     if (tests.length < page * 9) {
       setHasMore(false); // Stop fetching if there are no more results
@@ -73,10 +69,10 @@ const TestsPage: React.FC = () => {
           "linear-gradient(to bottom right, #faeca5, #e4e7eb, #99d1ff)",
       }}
     >
+       <BreadcrumbsNav />
       <TestsBanner />
       <TitleComponent title="Tests" />
-      <Box sx={{p:0}}>
-        {/* <Grid container spacing={2}> */}
+      <Box sx={{ p: 0 }}>
         <Grid
           container
           className="testCardsHolder"
@@ -84,21 +80,11 @@ const TestsPage: React.FC = () => {
         >
           {tests?.map((test: ITest) => (
             <Box
-             
-              
               key={test.id}
-              sx={{ flex: 1,minWidth:isMobile ? '95%': '31%', p: 0, m: 1 }}
+              sx={{ flex: 1, minWidth: isMobile ? "95%" : "31%", p: 0, m: 1 }}
               className="testCardStyle"
             >
-              <TestCard
-                // type={test.type}
-                // name={test.title}
-                // timeTaken={test.timeTaken}
-                // description={test.description}
-                // price={test.price}
-                // id={test.id}
-                test={test}
-              />
+              <TestCard test={test} />
             </Box>
           ))}
         </Grid>

@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import apiClient from 'utils/api/apiClient';
 import {TestList } from 'types'
 
-// Define the shape of a test object
+// shape of a test object
 interface Test {
   title: string;
   description: string;
@@ -12,7 +12,7 @@ interface Test {
   timeTaken: string;
 }
 
-// Define the initial state
+// initial state
 interface TestsState {
   tests: Test[];
   loading: boolean;
@@ -28,10 +28,9 @@ const initialState: TestsState = {
   hasMore: true,  
 };
 
-// Async thunk to fetch tests data from API
 export const fetchTests = createAsyncThunk<TestList,number>('tests/fetchTests', async (page: number, { getState }) => {
-  const { tests }: any = getState(); // Access the current state
-  const limit = 9; // Adjust the limit as needed
+  const { tests }: any = getState(); 
+  const limit = 9; 
   const response = await apiClient.get(`/testsData?_page=${page}&_limit=${limit}`);
   return response.data;
 });

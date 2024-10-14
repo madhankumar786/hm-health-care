@@ -2,10 +2,10 @@ import React from 'react';
 import { Button as MUIButton, ButtonProps as MUIButtonProps } from '@mui/material';
 
 interface ButtonProps extends MUIButtonProps {
-  label: string; // The label for the button
-  onClick: () => void; // The function to handle the button click
-  startIcon?: React.ReactNode; // Optional icon on the left side
-  endIcon?: React.ReactNode; // Optional icon on the right side
+  label: string; 
+  onClick: () => void; 
+  startIcon?: React.ReactNode; 
+  endIcon?: React.ReactNode; 
 }
 
 const HCButton: React.FC<ButtonProps> = ({ label, onClick, startIcon, endIcon, ...props }) => {
@@ -33,7 +33,7 @@ const HCButton: React.FC<ButtonProps> = ({ label, onClick, startIcon, endIcon, .
         width:'100%',
         textTransform:'capitalize'
       }}
-      {...props} // can pass other props to MUIButton
+      {...props} 
     >
       {label}
     </MUIButton>

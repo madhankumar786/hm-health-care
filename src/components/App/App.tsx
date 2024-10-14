@@ -27,7 +27,7 @@ function App() {
           <Route path="magazine" element={<Magazine />} />
           <Route path="healthSummita" element={<HealthSummita />} />
           <Route path="/diagnostics/tests" element={<TestPage />} />
-          <Route path="/diagnostics/view-details/:testId" element={<PackageDetails />} />
+          <Route path="/diagnostics/tests/:testId" element={<PackageDetails />} />
         </Route>
       </Routes>
       <SnackbarNotification />

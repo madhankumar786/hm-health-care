@@ -13,8 +13,6 @@ const Diagnostics: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
   const dispatch = useDispatch<AppDispatch>();
-  // const { data, loading, error } = useSelector((state: RootState) => state.packages);
-  // Accessing packages data
   const {
     data: packagesData,
     loading: packagesLoading,

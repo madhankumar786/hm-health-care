@@ -2,7 +2,6 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import apiClient from '../../utils/api/apiClient';
 import { ItemList } from 'types';
 
-// Define an async thunk to fetch packages data
 export const fetchPackages = createAsyncThunk<ItemList>(
   'packages/fetchPackages',
   async () => {

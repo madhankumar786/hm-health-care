@@ -18,7 +18,7 @@ const SnackbarNotification: React.FC = () => {
       open={open}
       autoHideDuration={6000}
       onClose={handleClose}
-      anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }} // Adjust the position as needed
+      anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}
     >
       <Alert onClose={handleClose} severity={severity} sx={{ width: '100%' }}>
         {message}

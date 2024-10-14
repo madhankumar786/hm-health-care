@@ -1,7 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-// Define the type for the test package data
 interface TestPackageData {
   title: string;
   description: string;
@@ -11,21 +10,18 @@ interface TestPackageData {
   testsIncluded: string[];
 }
 
-// Define the slice state
 interface TestPackageDetailsState {
   testPackageData: TestPackageData | null;
   loading: boolean;
   error: string | null;
 }
 
-// Initial state
 const initialState: TestPackageDetailsState = {
   testPackageData: null,
   loading: false,
   error: null
 };
 
-// Thunk to fetch test package data
 export const fetchTestPackageData = createAsyncThunk(
   'testPackageDetails/fetchTestPackageData',
   async (testId: number) => {

@@ -63,7 +63,7 @@ const Header: React.FC = () => {
         </Drawer>
       </Toolbar>
          )}
-      {/* Navbar should be rendered with selectedTab and onTabChange props */}
+     
       {!isMobile && (
         <Navbar selectedTab={selectedTab} onTabChange={handleTabChange} />
       )}

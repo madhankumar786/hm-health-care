@@ -7,12 +7,10 @@ import {ModalSearch} from 'components';
 const SearchBar: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-   // Function to handle opening the modal
    const handleSearchClick = () => {
     setIsModalOpen(true);
   };
 
-  // Function to handle closing the modal
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
@@ -23,7 +21,7 @@ const SearchBar: React.FC = () => {
       placeholder="Search by tests or checkups..."
       fullWidth
       className="searchBarStyle"
-      onClick={handleSearchClick} // Open modal on click
+      onClick={handleSearchClick} 
       sx={{
         backgroundColor:'#ffffff',
         border:'2px solid #289fff',

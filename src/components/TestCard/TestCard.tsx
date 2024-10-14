@@ -9,8 +9,8 @@ import {
   Box,
   Modal,
 } from "@mui/material";
-import PageIcon from "@mui/icons-material/InsertDriveFile"; // Page icon for info section
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward"; // Arrow icon for View Details button
+import PageIcon from "@mui/icons-material/InsertDriveFile"; 
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward"; 
 import "./TestCard.css";
 import { useNavigate } from "react-router-dom";
 import { RootState, AppDispatch } from 'store/store';
@@ -19,16 +19,13 @@ import { addToCart } from "store/store";
 
 interface TestCardProps {
   test:{
-    type: string; // Dynamic type: test/package
-    title: string; // Test or Package Name
-    description: string; // Description
-    price: number; // Price in Rupees
-    timeTaken: string; // Time taken for the test/package
+    type: string;
+    title: string; 
+    description: string; 
+    price: number; 
+    timeTaken: string; 
     id:number;
   }
-  // onBuyNow: () => void;
-  // onAddToCart: () => void;
-  // onViewDetails: () => void;
 }
 
 const TestCard: React.FC<TestCardProps> = ({ test }) => {
@@ -53,19 +50,12 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
         setModalOpen(true);
       }
   
-      setModalOpen(true); // Open modal in both success and failure cases
+      setModalOpen(true); 
     } catch (error) {
-      // In case of an unexpected error, handle it as well
       setModalMessage(`An error occurred while adding ${test.title} to the cart.`);
       setModalOpen(true);
     }
   };
-  // const handleAddToCart = () => {
-  //   dispatch(addToCart(test));
-  //   setIsAddedToCart(true);
-  //   setModalMessage(`Product ${test.title} is successfully added to cart`);
-  //   setModalOpen(true);
-  // };
 
   const handleRemoveFromCart = () => {
     setIsAddedToCart(false);
@@ -78,7 +68,7 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
   };
  
   const handleOnClickViewDetails = (id:number) => {
-      navigate(`/diagnostics/view-details/${id}`)
+      navigate(`/diagnostics/tests/${id}`)
   }
 
   return (
@@ -96,7 +86,6 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
       className="testCardStyle"
     >
       <CardContent className="cardContentStyle">
-        {/* Top-right dynamic type with gold background */}
         <Box
           className="testTypeStyle"
           sx={{
@@ -118,7 +107,6 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
           </Typography>
         </Box>
 
-        {/* Title (Package Name / Test Name) */}
         <Typography
           variant="h6"
           sx={{ fontSize: "14px", fontWeight: 600, lineHeight: "2em" }}
@@ -127,7 +115,6 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
           {test.title}
         </Typography>
 
-        {/* Description below title, in grey, smaller than title */}
         <Typography
           className="descriptionStyle"
           variant="body2"
@@ -137,7 +124,6 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
           {test.description}
         </Typography>
 
-        {/* Price in Rupees */}
         <Typography
           variant="h5"
           sx={{ marginBottom: "20px", fontWeight: "bold", fontSize: "1rem" }}
@@ -145,7 +131,6 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
           ₹{test.price}
         </Typography>
 
-        {/* Buttons: Buy Now (outlined), Add to Cart (filled) */}
         <Grid container spacing={2}>
           <Grid item xs={6}>
             <Button
@@ -182,10 +167,8 @@ const TestCard: React.FC<TestCardProps> = ({ test }) => {
           </Grid>
         </Grid>
 
-        {/* Grey horizontal separator line */}
         <Divider sx={{ margin: "20px 0" }} />
 
-        {/* Info section with Page Icon, Time Taken, and View Details button */}
         <Grid container alignItems="center" spacing={2}>
           <Grid item xs={12} className="viewDetailsHolderStyle">
             <Box sx={{ display: "flex", flexDirection: "row" }}>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Box, Grid, Button } from "@mui/material";
 import { TileCardComponent } from "components";
-import WaterDropOutlinedIcon from '@mui/icons-material/WaterDropOutlined';
 import {
   Favorite as FavoriteIcon,
   PregnantWomanOutlined as Pregnancy,
@@ -11,25 +10,24 @@ import {
   AccessibleForwardOutlined as AIDSIcon,
   WaterDropOutlined as AnemiaIcon,
   LocalHospitalOutlined as LeukemiaIcon,
-  AirlineSeatReclineExtraOutlined as DentalIcon, 
-  SickOutlined as DengueIcon, 
-  VaccinesOutlined as FeverIcon, 
-  PsychologyOutlined as MigraineIcon, 
-  HearingOutlined as ENTIcon, 
-  VolunteerActivismOutlined as CardiacIcon, 
-  TroubleshootOutlined as DialysisIcon, 
-  GrassOutlined as HairfallIcon, 
-  GrainOutlined as EczemaIcon, 
-  BubbleChartOutlined as PsoriasisIcon, 
-  AirOutlined as AsthmaIcon, 
+  AirlineSeatReclineExtraOutlined as DentalIcon,
+  SickOutlined as DengueIcon,
+  VaccinesOutlined as FeverIcon,
+  PsychologyOutlined as MigraineIcon,
+  HearingOutlined as ENTIcon,
+  VolunteerActivismOutlined as CardiacIcon,
+  TroubleshootOutlined as DialysisIcon,
+  GrassOutlined as HairfallIcon,
+  GrainOutlined as EczemaIcon,
+  BubbleChartOutlined as PsoriasisIcon,
+  AirOutlined as AsthmaIcon,
   AccessibleOutlined as FractureIcon,
   FilterDramaOutlined as ProstateIcon,
-  WidgetsOutlined as DiabetesIcon
+  WidgetsOutlined as DiabetesIcon,
 } from "@mui/icons-material";
 import DownArrow from "@mui/icons-material/KeyboardArrowDown";
 import { Item } from "types";
 import { useNavigate } from "react-router-dom";
-
 
 interface PackagesComponentProps {
   data: Item[];
@@ -44,8 +42,8 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
   };
 
   const handleOnClickPackage = () => {
-      navigate('/diagnostics/tests')
-  }
+    navigate("/diagnostics/tests");
+  };
 
   const getIconByName = (name: string) => {
     switch (name.toLowerCase()) {
@@ -56,43 +54,43 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
       case "covid-19":
         return <CoronavirusOutlined />;
       case "anemia":
-        return <AnemiaIcon/>;
+        return <AnemiaIcon />;
       case "arthritis":
-        return <BoneIcon/>;
+        return <BoneIcon />;
       case "cancer":
-        return <CancerIcon/>;
+        return <CancerIcon />;
       case "leukemia":
-        return <LeukemiaIcon/>;
+        return <LeukemiaIcon />;
       case "dental":
-        return <DentalIcon/>;
+        return <DentalIcon />;
       case "dengue":
-        return <DengueIcon/>;
+        return <DengueIcon />;
       case "fever":
-        return <FeverIcon/>;
+        return <FeverIcon />;
       case "migraine":
-        return <MigraineIcon/>;
+        return <MigraineIcon />;
       case "ent":
-        return <ENTIcon/>;
+        return <ENTIcon />;
       case "cardiac":
-        return <CardiacIcon/>;
+        return <CardiacIcon />;
       case "dialysis":
-        return <DialysisIcon/>;
+        return <DialysisIcon />;
       case "hairfall":
-        return <HairfallIcon/>;
+        return <HairfallIcon />;
       case "eczema":
-        return <EczemaIcon/>;
+        return <EczemaIcon />;
       case "psoriasis":
-        return <PsoriasisIcon/>;
+        return <PsoriasisIcon />;
       case "asthma":
-        return <AsthmaIcon/>;
+        return <AsthmaIcon />;
       case "fracture":
-        return <FractureIcon/>;
+        return <FractureIcon />;
       case "prostate":
-        return <ProstateIcon/>;
+        return <ProstateIcon />;
       case "diabetes":
-        return <DiabetesIcon/>;
+        return <DiabetesIcon />;
       default:
-        return <FavoriteIcon />; 
+        return <FavoriteIcon />;
     }
   };
 
