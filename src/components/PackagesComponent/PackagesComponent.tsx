@@ -23,7 +23,21 @@ import {
   AirOutlined as AsthmaIcon,
   AccessibleOutlined as FractureIcon,
   FilterDramaOutlined as ProstateIcon,
-  WidgetsOutlined as DiabetesIcon,
+  JoinInnerRounded,
+  Face6Rounded,
+  Iron,
+  Psychology,
+  DeviceHub,
+  AllInclusive,
+  AcUnit,
+  RiceBowl,
+  FiberSmartRecord,
+  Paragliding,
+  TagFaces,
+  Gesture,
+  DirectionsRun,
+  HorizontalSplit,
+  Grain
 } from "@mui/icons-material";
 import DownArrow from "@mui/icons-material/KeyboardArrowDown";
 import { Item } from "types";
@@ -47,6 +61,34 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
 
   const getIconByName = (name: string) => {
     switch (name.toLowerCase()) {
+      case "esophagus":
+        return <HorizontalSplit/>;
+      case "diaphragm":
+        return <DirectionsRun/>;
+      case "nerves":
+        return <Gesture/>;
+      case "skin":
+        return <TagFaces/>;
+      case "thyroid":
+        return <Paragliding/>;
+      case "pituitary":
+        return <FiberSmartRecord/>;
+      case "stomach":
+        return <RiceBowl/>;
+      case "arteries":
+        return <AcUnit/>;
+      case "gallbladder":
+        return <AllInclusive/>;
+      case "lungs":
+        return <DeviceHub/>;
+      case "brain":
+        return <Psychology/>;
+      case "liver":
+        return <Iron/>;
+      case "bone":
+        return <JoinInnerRounded/>;
+      case "kidneys":
+        return <Face6Rounded/>;
       case "pregnancy":
         return <Pregnancy />;
       case "aids":
@@ -88,7 +130,7 @@ const PackagesComponent: React.FC<PackagesComponentProps> = ({ data }) => {
       case "prostate":
         return <ProstateIcon />;
       case "diabetes":
-        return <DiabetesIcon />;
+        return <Grain />;
       default:
         return <FavoriteIcon />;
     }

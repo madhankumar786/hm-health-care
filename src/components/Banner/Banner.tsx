@@ -16,9 +16,15 @@ import {
   ArrowForward as ArrowForwardIcon,
   ManOutlined as CheckupIcon,
 } from "@mui/icons-material";
+import { useNavigate } from "react-router-dom";
 
 const Banner: React.FC = () => {
-  const handleClick = () => {
+  const navigate = useNavigate();
+  
+  const handleTestClick = () => {
+    navigate("/diagnostics/tests");
+  };
+  const handlePackagesClick = () => {
     console.log("Inside HandleClick");
   };
   return (
@@ -101,7 +107,7 @@ const Banner: React.FC = () => {
             <Box sx={{ py: 3, flex: 1 }}>
               <HCButton
                 label="Test"
-                onClick={handleClick}
+                onClick={handleTestClick}
                 startIcon={<TestIcon />}
                 endIcon={<ArrowForwardIcon />}
               />
@@ -109,7 +115,7 @@ const Banner: React.FC = () => {
             <Box sx={{ p: 3, flex: 1 }}>
               <HCButton
                 label="Smart Health Check-up"
-                onClick={handleClick}
+                onClick={handlePackagesClick}
                 startIcon={<CheckupIcon />}
                 endIcon={<ArrowForwardIcon />}
               />
